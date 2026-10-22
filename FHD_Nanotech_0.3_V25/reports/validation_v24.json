@@ -1,0 +1,18 @@
+{
+  "status": "PASS (static/model)",
+  "windows_game": "НЕТ ТЕСТА",
+  "new_game_exactly_one_test_gift": true,
+  "start_turn_61_checked": true,
+  "level_zero_random_skin_factory_unchanged": true,
+  "reload_and_repeated_hooks_no_duplicates": true,
+  "old_saves_no_automatic_gift": true,
+  "delayed_planet_and_retry_checked": true,
+  "no_release_gift": true,
+  "xp_frames_supply_and_ui_unchanged": true,
+  "shared_core": true,
+  "runtime_files_changed": [
+    "CFG/Main.dat",
+    "CFG/Rus/Lang.dat",
+    "ModuleInfo.txt"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "status": "PASS (static/model)",
+  "windows_game": "НЕТ ТЕСТА",
+  "excluded": "Maloc_R (16)",
+  "added_models": [
+    "Blazer3",
+    "Blazer4",
+    "Keller3",
+    "Keller4",
+    "Terron3",
+    "Terron4"
+  ],
+  "allowed_count": 26,
+  "real_evolution_steps": 480,
+  "all_levels_0_20_unique": true,
+  "new_models_in_random_evolution": true,
+  "six_models_evolve_and_portrait_paths_checked": true,
+  "old_pool_cache_reset_checked": true,
+  "old_future_maloc_plan_rejected": true,
+  "native_flight_graphs_preserved": true,
+  "preview_files_checked": 36,
+  "original_frames_buttons_xp_and_start_gift_unchanged": true,
+  "shared_core": true,
+  "new_flight_hai_copies": 0
+}

@@ -1,0 +1,2431 @@
+BV ^{
+    OnLoad ^{
+        Runtime ^{
+            90_FHDNT042=ExecuteCodeFromString(GenerateCodeStringFromBlock('FHDNT.Code.Install'));
+        }
+    }
+    OnStart ^{
+        0DayScripts ^{
+            90_FHDNT042=ExecuteCodeFromString(GenerateCodeStringFromBlock('FHDNT.Code.Install'));
+            91_FHDNT_Gift24=ExecuteCodeFromString(GenerateCodeStringFromBlock('FHDNT.Code.StartTestGift24'));
+        }
+    }
+}
+Data ^{
+    SE ^{
+        Ship ^{
+            Akrin ^{
+                FHDNTDom_Blazer3 ^{
+                    1ImageP=GI,Bm.ShipP.2Blazer3
+                    2ImageP=GI,Bm.ShipP.2Blazer3
+                    Anim ^{
+                        0=1,[70,50-99]
+                        Normal=2,[70,0-49]
+                    }
+                    AnimS ^{
+                        Normal=2,[70,0-49]
+                    }
+                    Image=Bm.Ship.Blazer3
+                    ImageMap=Bm.Ship.DominatorMap
+                    ImageS=Bm.Ship.Blazer3s
+                    PosZ=Ship
+                    SizeImage=128,128
+                    SmeCenterImage=64,64
+                    SmeImage=64,64
+                    SmeImageMap=2,2
+                    StateTime=2000
+                }
+                FHDNTDom_Blazer4 ^{
+                    1ImageP=GI,Bm.ShipP.2Blazer4
+                    2ImageP=GI,Bm.ShipP.2Blazer4
+                    Anim ^{
+                        0=1,[70,50-99]
+                        Normal=2,[70,0-49]
+                    }
+                    AnimS ^{
+                        Normal=2,[70,0-49]
+                    }
+                    Image=Bm.Ship.Blazer4
+                    ImageMap=Bm.Ship.DominatorMap
+                    ImageS=Bm.Ship.Blazer4s
+                    PosZ=Ship
+                    SizeImage=128,128
+                    SmeCenterImage=64,64
+                    SmeImage=64,73
+                    SmeImageMap=2,2
+                    StateTime=2000
+                    Tail1=64,97
+                }
+                FHDNTDom_Keller3 ^{
+                    1ImageP=GI,Bm.ShipP.2Keller3
+                    2ImageP=GI,Bm.ShipP.2Keller3
+                    Anim ^{
+                        0=1,[70,50-99]
+                        Normal=2,[70,0-49]
+                    }
+                    AnimS ^{
+                        Normal=2,[70,0-49]
+                    }
+                    Image=Bm.Ship.Keller3
+                    ImageMap=Bm.Ship.DominatorMap
+                    ImageS=Bm.Ship.Keller3s
+                    PosZ=Ship
+                    SizeImage=128,128
+                    SmeCenterImage=64,64
+                    SmeImage=63,68
+                    SmeImageMap=2,2
+                    StateTime=2000
+                }
+                FHDNTDom_Keller4 ^{
+                    1ImageP=GI,Bm.ShipP.2Keller4
+                    2ImageP=GI,Bm.ShipP.2Keller4
+                    Anim ^{
+                        0=1,[70,50-92][70,43-49]
+                        Normal=2,[70,0-49]
+                    }
+                    AnimS ^{
+                        Normal=2,[70,0-49]
+                    }
+                    Image=Bm.Ship.Keller4
+                    ImageMap=Bm.Ship.DominatorMap
+                    ImageS=Bm.Ship.Keller4s
+                    PosZ=Ship
+                    SizeImage=128,128
+                    SmeCenterImage=64,64
+                    SmeImage=63,74
+                    SmeImageMap=2,2
+                    StateTime=2000
+                    Tail1=64,97
+                }
+                FHDNTDom_Terron3 ^{
+                    1ImageP=GI,Bm.ShipP.2Terron3
+                    2ImageP=GI,Bm.ShipP.2Terron3
+                    Anim ^{
+                        0=1,[70,50-99]
+                        Normal=2,[70,0-49]
+                    }
+                    AnimS ^{
+                        Normal=2,[70,0-49]
+                    }
+                    Image=Bm.Ship.Terron3
+                    ImageMap=Bm.Ship.DominatorMap
+                    ImageS=Bm.Ship.Terron3s
+                    PosZ=Ship
+                    SizeImage=128,128
+                    SmeCenterImage=64,64
+                    SmeImage=64,64
+                    SmeImageMap=2,2
+                    StateTime=2000
+                }
+                FHDNTDom_Terron4 ^{
+                    1ImageP=GI,Bm.ShipP.2Terron4
+                    2ImageP=GI,Bm.ShipP.2Terron4
+                    Anim ^{
+                        0=1,[70,50-99]
+                        Normal=2,[70,0-49]
+                    }
+                    AnimS ^{
+                        Normal=2,[70,0-49]
+                    }
+                    Image=Bm.Ship.Terron4
+                    ImageMap=Bm.Ship.DominatorMap
+                    ImageS=Bm.Ship.Terron4s
+                    PosZ=Ship
+                    SizeImage=128,128
+                    SmeCenterImage=64,64
+                    SmeImage=64,64
+                    SmeImageMap=2,2
+                    StateTime=2000
+                    Tail1=64,82
+                }
+                Fei_D ^{
+                    1ImageP=GI,Bm.ShipP.1FeiD
+                    2ImageP=GI,Bm.ShipP.2FeiD
+                    Anim ^{
+                        0=1,[70,50-99]
+                        Normal=2,[70,0-49]
+                    }
+                    AnimS ^{
+                        Normal=2,[70,0-49]
+                    }
+                    Image=Bm.Ship.FeiD
+                    ImageMap=Bm.Ship.FeiMap
+                    ImageS=Bm.Ship.FeiDs
+                    PosZ=Ship
+                    SizeImage=128,128
+                    SmeCenterImage=64,64
+                    SmeImage=64,64
+                    SmeImageMap=2,2
+                    StateTime=2000
+                    Tail1=63,100
+                }
+                Fei_L ^{
+                    1ImageP=GI,Bm.ShipP.1FeiL
+                    2ImageP=GI,Bm.ShipP.2FeiL
+                    Anim ^{
+                        0=1,[70,50-99]
+                        Normal=2,[70,0-49]
+                    }
+                    AnimS ^{
+                        Normal=2,[70,0-49]
+                    }
+                    Image=Bm.Ship.FeiL
+                    ImageMap=Bm.Ship.FeiMap
+                    ImageS=Bm.Ship.FeiLs
+                    PosZ=Ship
+                    SizeImage=128,128
+                    SmeCenterImage=64,64
+                    SmeImage=64,64
+                    SmeImageMap=2,2
+                    StateTime=2000
+                }
+                Fei_P ^{
+                    1ImageP=GI,Bm.ShipP.1FeiP
+                    2ImageP=GI,Bm.ShipP.2FeiP
+                    Anim ^{
+                        0=1,[70,50-99]
+                        Normal=2,[70,0-49]
+                    }
+                    AnimS ^{
+                        Normal=2,[70,0-49]
+                    }
+                    Image=Bm.Ship.FeiP
+                    ImageMap=Bm.Ship.FeiMap
+                    ImageS=Bm.Ship.FeiPs
+                    PosZ=Ship
+                    SizeImage=128,128
+                    SmeCenterImage=64,64
+                    SmeImage=64,64
+                    SmeImageMap=2,2
+                    StateTime=2000
+                    Tail1=64,93
+                }
+                Fei_PC ^{
+                    2ImageP=GI,Bm.FHDNTShipP.FeiPC
+                    Anim ^{
+                        0=1,[70,50-99]
+                        Normal=2,[70,0-49]
+                    }
+                    AnimS ^{
+                        Normal=2,[70,0-49]
+                    }
+                    Image=Bm.Ship.FeiPC
+                    ImageMap=Bm.Ship.SpecialMap
+                    ImageS=Bm.Ship.FeiPCs
+                    PosZ=Ship
+                    SizeImage=128,128
+                    SmeCenterImage=64,64
+                    SmeImage=64,64
+                    SmeImageMap=2,2
+                    StateTime=2000
+                    Tail1=64,96
+                }
+                Fei_R ^{
+                    1ImageP=GI,Bm.ShipP.1FeiR
+                    2ImageP=GI,Bm.FHDNTShipP.2FeiR
+                    Anim ^{
+                        0=1,[80,50-99]
+                        Normal=2,[80,0-49]
+                    }
+                    AnimS ^{
+                        Normal=2,[80,0-49]
+                    }
+                    Image=Bm.Ship.FeiR
+                    ImageMap=Bm.Ship.FeiMap
+                    ImageS=Bm.Ship.FeiRs
+                    PosZ=Ship
+                    SizeImage=128,128
+                    SmeCenterImage=64,64
+                    SmeImage=64,64
+                    SmeImageMap=2,2
+                    StateTime=2000
+                    Tail1=58,102
+                    Tail2=64,102
+                }
+                Fei_T ^{
+                    1ImageP=GI,Bm.ShipP.1FeiT
+                    2ImageP=GI,Bm.ShipP.2FeiT
+                    Anim ^{
+                        0=1,[80,50-99]
+                        Normal=2,[80,0-49]
+                    }
+                    AnimS ^{
+                        Normal=2,[80,0-49]
+                    }
+                    Image=Bm.Ship.FeiT
+                    ImageMap=Bm.Ship.FeiMap
+                    ImageS=Bm.Ship.FeiTs
+                    PosZ=Ship
+                    SizeImage=128,128
+                    SmeCenterImage=64,64
+                    SmeImage=64,64
+                    SmeImageMap=2,2
+                    StateTime=2000
+                }
+                Fei_W ^{
+                    1ImageP=GI,Bm.ShipP.1FeiW
+                    2ImageP=GI,Bm.FHDNTShipP.2FeiW
+                    Anim ^{
+                        0=1,[70,50-75][70,26-28][70,76-96]
+                        Normal=2,[70,0-49]
+                    }
+                    AnimS ^{
+                        Normal=2,[70,0-49]
+                    }
+                    Image=Bm.Ship.FeiW
+                    ImageMap=Bm.Ship.FeiMap
+                    ImageS=Bm.Ship.FeiWs
+                    PosZ=Ship
+                    SizeImage=128,128
+                    SmeCenterImage=64,64
+                    SmeImage=64,64
+                    SmeImageMap=2,2
+                    StateTime=2000
+                    Tail1=56,110
+                    Tail2=73,110
+                }
+                Gaal_D ^{
+                    1ImageP=GI,Bm.ShipP.1GaalD
+                    2ImageP=GI,Bm.ShipP.2GaalD
+                    Anim ^{
+                        0=1,[70,0-0][70,50-98]
+                        Normal=2,[70,0-49]
+                    }
+                    AnimS ^{
+                        Normal=2,[70,0-49]
+                    }
+                    Image=Bm.Ship.GaalD
+                    ImageMap=Bm.Ship.GaalMap
+                    ImageS=Bm.Ship.GaalDs
+                    PosZ=Ship
+                    SizeImage=128,128
+                    SmeCenterImage=64,64
+                    SmeImage=65,52
+                    SmeImageMap=2,2
+                    StateTime=2000
+                    Tail1=40,105
+                    Tail2=82,105
+                }
+                Gaal_L ^{
+                    1ImageP=GI,Bm.ShipP.1GaalL
+                    2ImageP=GI,Bm.ShipP.2GaalL
+                    Anim ^{
+                        0=1,[70,50-99]
+                        Normal=2,[70,0-49]
+                    }
+                    AnimS ^{
+                        Normal=2,[70,0-49]
+                    }
+                    Image=Bm.Ship.GaalL
+                    ImageMap=Bm.Ship.GaalMap
+                    ImageS=Bm.Ship.GaalLs
+                    PosZ=Ship
+                    SizeImage=128,128
+                    SmeCenterImage=64,64
+                    SmeImage=66,57
+                    SmeImageMap=2,2
+                    StateTime=2000
+                    Tail1=52,110
+                    Tail2=81,110
+                }
+                Gaal_P ^{
+                    1ImageP=GI,Bm.ShipP.1GaalP
+                    2ImageP=GI,Bm.ShipP.2GaalP
+                    Anim ^{
+                        0=1,[70,50-99]
+                        Normal=2,[70,0-49]
+                    }
+                    AnimS ^{
+                        Normal=2,[70,0-49]
+                    }
+                    Image=Bm.Ship.GaalP
+                    ImageMap=Bm.Ship.GaalMap
+                    ImageS=Bm.Ship.GaalPs
+                    PosZ=Ship
+                    SizeImage=128,128
+                    SmeCenterImage=64,64
+                    SmeImage=63,68
+                    SmeImageMap=2,2
+                    StateTime=2000
+                    Tail1=64,103
+                }
+                Gaal_PC ^{
+                    2ImageP=GI,Bm.FHDNTShipP.GaalPC
+                    Anim ^{
+                        0=1,[70,50-99]
+                        Normal=2,[70,0-49]
+                    }
+                    AnimS ^{
+                        Normal=2,[70,0-49]
+                    }
+                    Image=Bm.Ship.GaalPC
+                    ImageMap=Bm.Ship.SpecialMap
+                    ImageS=Bm.Ship.GaalPCs
+                    PosZ=Ship
+                    SizeImage=128,128
+                    SmeCenterImage=64,64
+                    SmeImage=64,64
+                    SmeImageMap=2,2
+                    StateTime=2000
+                    Tail1=63,104
+                }
+                Gaal_R ^{
+                    1ImageP=GI,Bm.ShipP.1GaalR
+                    2ImageP=GI,Bm.FHDNTShipP.2GaalR
+                    Anim ^{
+                        0=1,[70,0-0][70,50-81][70,33-49]
+                        Normal=2,[70,0-49]
+                    }
+                    AnimS ^{
+                        Normal=2,[70,0-49]
+                    }
+                    Image=Bm.Ship.GaalR
+                    ImageMap=Bm.Ship.GaalMap
+                    ImageS=Bm.Ship.GaalRs
+                    PosZ=Ship
+                    SizeImage=128,128
+                    SmeCenterImage=64,64
+                    SmeImage=64,64
+                    SmeImageMap=2,2
+                    StateTime=2000
+                    Tail1=28,104
+                    Tail2=100,104
+                }
+                Gaal_T ^{
+                    1ImageP=GI,Bm.ShipP.1GaalT
+                    2ImageP=GI,Bm.ShipP.2GaalT
+                    Anim ^{
+                        0=1,[70,0-0][70,50-98]
+                        Normal=2,[70,0-49]
+                    }
+                    AnimS ^{
+                        Normal=2,[70,0-49]
+                    }
+                    Image=Bm.Ship.GaalT
+                    ImageMap=Bm.Ship.GaalMap
+                    ImageS=Bm.Ship.GaalTs
+                    PosZ=Ship
+                    SizeImage=128,128
+                    SmeCenterImage=64,64
+                    SmeImage=63,55
+                    SmeImageMap=2,2
+                    StateTime=2000
+                    Tail1=47,113
+                    Tail2=78,113
+                }
+                Gaal_W ^{
+                    1ImageP=GI,Bm.ShipP.1GaalW
+                    2ImageP=GI,Bm.FHDNTShipP.2GaalW
+                    Anim ^{
+                        0=1,[70,0-0][70,50-98]
+                        Normal=1,[70,0-49]
+                    }
+                    AnimS ^{
+                        Normal=1,[70,0-49]
+                    }
+                    Image=Bm.Ship.GaalW
+                    ImageMap=Bm.Ship.GaalMap
+                    ImageS=Bm.Ship.GaalWs
+                    PosZ=Ship
+                    SizeImage=128,128
+                    SmeCenterImage=64,64
+                    SmeImage=64,64
+                    SmeImageMap=2,2
+                    StateTime=2000
+                    Tail1=64,108
+                }
+                Maloc_D ^{
+                    1ImageP=GI,Bm.ShipP.1MalocD
+                    2ImageP=GI,Bm.ShipP.2MalocD
+                    Anim ^{
+                        0=1,[70,0-0][70,50-97][70,49-49]
+                        Normal=2,[70,0-49]
+                    }
+                    AnimS ^{
+                        Normal=2,[70,0-49]
+                    }
+                    Image=Bm.Ship.MalocD
+                    ImageMap=Bm.Ship.MalocMap
+                    ImageS=Bm.Ship.MalocDs
+                    PosZ=Ship
+                    SizeImage=128,128
+                    SmeCenterImage=64,64
+                    SmeImage=64,66
+                    SmeImageMap=2,2
+                    StateTime=2000
+                    Tail1=64,111
+                }
+                Maloc_L ^{
+                    1ImageP=GI,Bm.ShipP.1MalocL
+                    2ImageP=GI,Bm.ShipP.2MalocL
+                    Anim ^{
+                        0=1,[70,50-99]
+                        1=1,[70,100-124][70,25-25][70,125-136][70,38-49]
+                        Normal=2,[70,0-49]
+                    }
+                    AnimS ^{
+                        Normal=2,[70,0-49]
+                    }
+                    Image=Bm.Ship.MalocL
+                    ImageMap=Bm.Ship.MalocMap
+                    ImageS=Bm.Ship.MalocLs
+                    PosZ=Ship
+                    SizeImage=128,128
+                    SmeCenterImage=64,64
+                    SmeImage=64,64
+                    SmeImageMap=2,2
+                    StateTime=2000
+                    Tail1=64,104
+                }
+                Maloc_P ^{
+                    1ImageP=GI,Bm.ShipP.1MalocP
+                    2ImageP=GI,Bm.ShipP.2MalocP
+                    Anim ^{
+                        0=1,[70,50-99]
+                        Normal=2,[70,0-49]
+                    }
+                    AnimS ^{
+                        Normal=2,[70,0-49]
+                    }
+                    Image=Bm.Ship.MalocP
+                    ImageMap=Bm.Ship.MalocMap
+                    ImageS=Bm.Ship.MalocPs
+                    PosZ=Ship
+                    SizeImage=128,128
+                    SmeCenterImage=64,64
+                    SmeImage=63,85
+                    SmeImageMap=2,2
+                    StateTime=2000
+                    Tail1=55,98
+                    Tail2=69,98
+                }
+                Maloc_PC ^{
+                    2ImageP=GI,Bm.FHDNTShipP.MalocPC
+                    Anim ^{
+                        0=1,[70,50-99]
+                        Normal=2,[70,0-49]
+                    }
+                    AnimS ^{
+                        Normal=2,[70,0-49]
+                    }
+                    Image=Bm.Ship.MalocPC
+                    ImageMap=Bm.Ship.SpecialMap
+                    ImageS=Bm.Ship.MalocPCs
+                    PosZ=Ship
+                    SizeImage=128,128
+                    SmeCenterImage=64,64
+                    SmeImage=64,64
+                    SmeImageMap=2,2
+                    StateTime=2000
+                    Tail1=55,87
+                    Tail2=69,87
+                }
+                Maloc_R ^{
+                    1ImageP=GI,Bm.ShipP.1MalocR
+                    2ImageP=GI,Bm.FHDNTShipP.2MalocR
+                    Anim ^{
+                        0=2,[70,0-0][70,50-98]
+                        1=1,[70,99-148]
+                        Normal=3,[70,0-49]
+                    }
+                    AnimS ^{
+                        Normal=3,[70,0-49]
+                    }
+                    Image=Bm.Ship.MalocR
+                    ImageMap=Bm.Ship.MalocMap
+                    ImageS=Bm.Ship.MalocRs
+                    PosZ=Ship
+                    SizeImage=128,128
+                    SmeCenterImage=64,64
+                    SmeImage=64,64
+                    SmeImageMap=2,2
+                    StateTime=2000
+                    Tail1=63,103
+                }
+                Maloc_T ^{
+                    1ImageP=GI,Bm.ShipP.1MalocT
+                    2ImageP=GI,Bm.ShipP.2MalocT
+                    Anim ^{
+                        0=1,[70,0-0][70,50-98]
+                        1=1,[70,0-0][70,99-138][70,41-49]
+                        Normal=2,[70,0-49]
+                    }
+                    AnimS ^{
+                        Normal=2,[70,0-49]
+                    }
+                    Image=Bm.Ship.MalocT
+                    ImageMap=Bm.Ship.MalocMap
+                    ImageS=Bm.Ship.MalocTs
+                    PosZ=Ship
+                    SizeImage=128,128
+                    SmeCenterImage=64,64
+                    SmeImage=66,57
+                    SmeImageMap=2,2
+                    StateTime=2000
+                    Tail1=64,96
+                }
+                Maloc_W ^{
+                    1ImageP=GI,Bm.ShipP.1MalocW
+                    2ImageP=GI,Bm.FHDNTShipP.2MalocW
+                    Anim ^{
+                        0=1,[70,50-99]
+                        1=1,[70,50-50][70,100-148]
+                        Normal=2,[70,0-49]
+                    }
+                    AnimS ^{
+                        Normal=2,[70,0-49]
+                    }
+                    Image=Bm.Ship.MalocW
+                    ImageMap=Bm.Ship.MalocMap
+                    ImageS=Bm.Ship.MalocWs
+                    PosZ=Ship
+                    SizeImage=128,128
+                    SmeCenterImage=64,64
+                    SmeImage=64,64
+                    SmeImageMap=2,2
+                    StateTime=2000
+                    Tail1=49,98
+                    Tail2=69,98
+                }
+                Peleng_D ^{
+                    1ImageP=GI,Bm.ShipP.1PelengD
+                    2ImageP=GI,Bm.ShipP.2PelengD
+                    Anim ^{
+                        0=1,[70,0-2][70,50-95][70,49-49]
+                        Normal=2,[70,0-49]
+                    }
+                    AnimS ^{
+                        Normal=2,[70,0-49]
+                    }
+                    Image=Bm.Ship.PelengD
+                    ImageMap=Bm.Ship.PelengMap
+                    ImageS=Bm.Ship.PelengDs
+                    PosZ=Ship
+                    SizeImage=128,128
+                    SmeCenterImage=64,64
+                    SmeImage=64,64
+                    SmeImageMap=2,2
+                    StateTime=2000
+                    Tail1=46,106
+                    Tail2=80,106
+                }
+                Peleng_L ^{
+                    1ImageP=GI,Bm.ShipP.1PelengL
+                    2ImageP=GI,Bm.ShipP.2PelengL
+                    Anim ^{
+                        0=1,[70,50-99]
+                        Normal=2,[70,0-49]
+                    }
+                    AnimS ^{
+                        Normal=2,[70,0-49]
+                    }
+                    Image=Bm.Ship.PelengL
+                    ImageMap=Bm.Ship.PelengMap
+                    ImageS=Bm.Ship.PelengLs
+                    PosZ=Ship
+                    SizeImage=128,128
+                    SmeCenterImage=64,64
+                    SmeImage=64,64
+                    SmeImageMap=2,2
+                    StateTime=2000
+                    Tail1=48,106
+                    Tail2=83,106
+                }
+                Peleng_P ^{
+                    1ImageP=GI,Bm.ShipP.1PelengP
+                    2ImageP=GI,Bm.ShipP.2PelengP
+                    Anim ^{
+                        0=1,[70,0-0][70,50-98]
+                        1=1,[70,99-148]
+                        Normal=2,[70,0-49]
+                    }
+                    AnimS ^{
+                        Normal=2,[70,0-49]
+                    }
+                    Image=Bm.Ship.PelengP
+                    ImageMap=Bm.Ship.PelengMap
+                    ImageS=Bm.Ship.PelengPs
+                    PosZ=Ship
+                    SizeImage=128,128
+                    SmeCenterImage=64,64
+                    SmeImage=64,64
+                    SmeImageMap=2,2
+                    StateTime=2000
+                    Tail1=53,106
+                    Tail2=73,106
+                }
+                Peleng_PC ^{
+                    2ImageP=GI,Bm.FHDNTShipP.PelengPC
+                    Anim ^{
+                        0=1,[70,50-100]
+                        Normal=2,[70,0-49]
+                    }
+                    AnimS ^{
+                        Normal=2,[70,0-48]
+                    }
+                    Image=Bm.Ship.PelengPC
+                    ImageMap=Bm.Ship.SpecialMap
+                    ImageS=Bm.Ship.PelengPCs
+                    PosZ=Ship
+                    SizeImage=128,128
+                    SmeCenterImage=64,64
+                    SmeImage=64,64
+                    SmeImageMap=2,2
+                    StateTime=2000
+                    Tail1=53,112
+                    Tail2=74,112
+                }
+                Peleng_R ^{
+                    1ImageP=GI,Bm.ShipP.1PelengR
+                    2ImageP=GI,Bm.FHDNTShipP.2PelengR
+                    Anim ^{
+                        0=1,[70,50-99]
+                        Normal=2,[50,0-49]
+                    }
+                    AnimS ^{
+                        Normal=2,[50,0-49]
+                    }
+                    Image=Bm.Ship.PelengR
+                    ImageMap=Bm.Ship.PelengMap
+                    ImageS=Bm.Ship.PelengRs
+                    PosZ=Ship
+                    SizeImage=128,128
+                    SmeCenterImage=64,64
+                    SmeImage=64,56
+                    SmeImageMap=2,2
+                    StateTime=2000
+                    Tail1=58,111
+                    Tail2=71,111
+                }
+                Peleng_T ^{
+                    1ImageP=GI,Bm.ShipP.1PelengT
+                    2ImageP=GI,Bm.ShipP.2PelengT
+                    Anim ^{
+                        0=1,[70,50-99]
+                        1=1,[70,100-149]
+                        Normal=2,[70,0-49]
+                    }
+                    AnimS ^{
+                        Normal=2,[70,0-49]
+                    }
+                    Image=Bm.Ship.PelengT
+                    ImageMap=Bm.Ship.PelengMap
+                    ImageS=Bm.Ship.PelengTs
+                    PosZ=Ship
+                    SizeImage=128,128
+                    SmeCenterImage=64,64
+                    SmeImage=65,57
+                    SmeImageMap=2,2
+                    StateTime=2000
+                    Tail1=44,91
+                    Tail2=86,91
+                }
+                Peleng_W ^{
+                    1ImageP=GI,Bm.ShipP.1PelengW
+                    2ImageP=GI,Bm.FHDNTShipP.2PelengW
+                    Anim ^{
+                        0=1,[70,50-99]
+                        1=1,[70,100-149]
+                        Normal=2,[70,0-49]
+                    }
+                    AnimS ^{
+                        Normal=2,[70,0-49]
+                    }
+                    Image=Bm.Ship.PelengW
+                    ImageMap=Bm.Ship.PelengMap
+                    ImageS=Bm.Ship.PelengWs
+                    PosZ=Ship
+                    SizeImage=128,128
+                    SmeCenterImage=64,64
+                    SmeImage=64,64
+                    SmeImageMap=2,2
+                    StateTime=2000
+                    Tail1=56,97
+                    Tail2=72,97
+                }
+                People_D ^{
+                    1ImageP=GI,Bm.ShipP.1PeopleD
+                    2ImageP=GI,Bm.ShipP.2PeopleD
+                    Anim ^{
+                        0=1,[70,50-99]
+                        Normal=2,[70,0-49]
+                    }
+                    AnimS ^{
+                        Normal=2,[70,0-49]
+                    }
+                    Image=Bm.Ship.PeopleD
+                    ImageMap=Bm.Ship.PeopleMap
+                    ImageS=Bm.Ship.PeopleDs
+                    PosZ=Ship
+                    SizeImage=128,128
+                    SmeCenterImage=64,64
+                    SmeImage=63,62
+                    SmeImageMap=2,2
+                    StateTime=2000
+                    Tail1=32,105
+                    Tail2=96,105
+                }
+                People_L ^{
+                    1ImageP=GI,Bm.ShipP.1PeopleL
+                    2ImageP=GI,Bm.ShipP.2PeopleL
+                    Anim ^{
+                        0=1,[70,50-99]
+                        Normal=2,[70,0-49]
+                    }
+                    AnimS ^{
+                        Normal=2,[70,0-49]
+                    }
+                    Image=Bm.Ship.PeopleL
+                    ImageMap=Bm.Ship.PeopleMap
+                    ImageS=Bm.Ship.PeopleLs
+                    PosZ=Ship
+                    SizeImage=128,128
+                    SmeCenterImage=64,64
+                    SmeImage=63,73
+                    SmeImageMap=2,2
+                    StateTime=2000
+                    Tail1=41,110
+                    Tail2=87,110
+                }
+                People_P ^{
+                    1ImageP=GI,Bm.ShipP.1PeopleP
+                    2ImageP=GI,Bm.ShipP.2PeopleP
+                    Anim ^{
+                        0=1,[70,0-0][70,50-58][70,10-11][70,59-68][70,22-23][70,69-77][70,33-34][70,78-87][70,45-49]
+                        Normal=2,[70,0-49]
+                    }
+                    AnimS ^{
+                        Normal=2,[70,0-49]
+                    }
+                    Image=Bm.Ship.PeopleP
+                    ImageMap=Bm.Ship.PeopleMap
+                    ImageS=Bm.Ship.PeoplePs
+                    PosZ=Ship
+                    SizeImage=128,128
+                    SmeCenterImage=64,64
+                    SmeImage=63,68
+                    SmeImageMap=2,2
+                    StateTime=2000
+                    Tail1=63,110
+                }
+                People_PC ^{
+                    2ImageP=GI,Bm.FHDNTShipP.PeoplePC
+                    Anim ^{
+                        0=1,[70,50-99]
+                        Normal=2,[70,0-49]
+                    }
+                    AnimS ^{
+                        Normal=2,[70,0-49]
+                    }
+                    Image=Bm.Ship.PeoplePC
+                    ImageMap=Bm.Ship.SpecialMap
+                    ImageS=Bm.Ship.PeoplePCs
+                    PosZ=Ship
+                    SizeImage=128,128
+                    SmeCenterImage=64,64
+                    SmeImage=64,64
+                    SmeImageMap=2,2
+                    StateTime=2000
+                    Tail1=64,110
+                }
+                People_R ^{
+                    1ImageP=GI,Bm.ShipP.1PeopleR
+                    2ImageP=GI,Bm.FHDNTShipP.2PeopleR
+                    Anim ^{
+                        0=1,[70,50-99]
+                        Normal=2,[70,0-49]
+                    }
+                    AnimS ^{
+                        Normal=2,[70,0-49]
+                    }
+                    Image=Bm.Ship.PeopleR
+                    ImageMap=Bm.Ship.PeopleMap
+                    ImageS=Bm.Ship.PeopleRs
+                    PosZ=Ship
+                    SizeImage=128,128
+                    SmeCenterImage=64,64
+                    SmeImage=64,64
+                    SmeImageMap=2,2
+                    StateTime=2000
+                    Tail1=63,96
+                }
+                People_T ^{
+                    1ImageP=GI,Bm.ShipP.1PeopleT
+                    2ImageP=GI,Bm.ShipP.2PeopleT
+                    Anim ^{
+                        0=1,[70,0-2][70,50-60][70,14-15][70,61-76][70,32-32][70,77-83][70,40-42][70,84-90]
+                        1=1,[70,0-2][70,91-101][70,14-15][70,102-117][70,32-32][70,118-124][70,40-42][70,125-131]
+                        Normal=2,[70,0-49]
+                    }
+                    AnimS ^{
+                        Normal=2,[70,0-49]
+                    }
+                    Image=Bm.Ship.PeopleT
+                    ImageMap=Bm.Ship.PeopleMap
+                    ImageS=Bm.Ship.PeopleTs
+                    PosZ=Ship
+                    SizeImage=128,128
+                    SmeCenterImage=64,64
+                    SmeImage=63,61
+                    SmeImageMap=2,2
+                    StateTime=2000
+                    Tail1=63,105
+                }
+                People_W ^{
+                    1ImageP=GI,Bm.ShipP.1PeopleW
+                    2ImageP=GI,Bm.FHDNTShipP.2PeopleW
+                    Anim ^{
+                        0=1,[70,50-99]
+                        Normal=2,[70,0-49]
+                    }
+                    AnimS ^{
+                        Normal=2,[70,0-49]
+                    }
+                    Image=Bm.Ship.PeopleW
+                    ImageMap=Bm.Ship.PeopleMap
+                    ImageS=Bm.Ship.PeopleWs
+                    PosZ=Ship
+                    SizeImage=128,128
+                    SmeCenterImage=64,64
+                    SmeImage=63,69
+                    SmeImageMap=2,2
+                    StateTime=2000
+                    Tail1=63,103
+                }
+            }
+        }
+    }
+}
+ML ^{
+    Scaner ^{
+        Panel ^{
+            Panel ^{
+                Panel ^{
+                    Panel ^{
+                        GAI ^{
+
+                        }
+                        GAI ^{
+
+                        }
+                        GAI ^{
+
+                        }
+                        GAI ^{
+
+                        }
+                        GAI ^{
+
+                        }
+                        GAI ^{
+
+                        }
+                        GAI ^{
+
+                        }
+                        GAI ^{
+
+                        }
+                        GAI ^{
+
+                        }
+                        GAI ^{
+
+                        }
+                        GAI ^{
+
+                        }
+                        GAI ^{
+
+                        }
+                        GAI ^{
+
+                        }
+                        GAI ^{
+
+                        }
+                        GAI ^{
+
+                        }
+                        GAI ^{
+                            Active=False
+                            Frame=[42,0-83]
+                            Image=Bm.FHDNTLevel20.2Left
+                            KindX=Center
+                            KindY=Center
+                            MouseBlocking=False
+                            MouseBlockingTest=False
+                            Name=FHDNT_Level20_Scaner_2Left
+                            PBuf=False
+                            Pos=0,0,1
+                            Size=460,617
+                            StopAfterOneCycle=False
+                        }
+                    }
+                }
+                Panel ^{
+                    Panel ^{
+                        GAI ^{
+
+                        }
+                        GAI ^{
+                            Active=False
+                            Frame=[42,0-83]
+                            Image=Bm.FHDNTLevel20.2Right
+                            KindX=Center
+                            KindY=Center
+                            MouseBlocking=False
+                            MouseBlockingTest=False
+                            Name=FHDNT_Level20_Scaner_2Right
+                            PBuf=False
+                            Pos=0,0,2
+                            Size=328,598
+                            StopAfterOneCycle=False
+                        }
+                    }
+                }
+            }
+        }
+    }
+    Ship ^{
+        FHDNT_TalentAvailable ^{
+            CaptionColorDisable=135,145,155
+            CaptionColorDisableA=135,145,155
+            CaptionColorDown=220,235,245
+            CaptionColorNormal=220,235,245
+            CaptionColorNormalA=255,225,170
+        }
+        FHDNT_TalentChosen ^{
+            CaptionColorDisable=110,235,130
+            CaptionColorDisableA=110,235,130
+            CaptionColorDown=110,235,130
+            CaptionColorNormal=110,235,130
+            CaptionColorNormalA=150,255,165
+        }
+        Panel ^{
+            FHDNT_StorageUI18 ^{
+                GraphButton ^{
+                    Active=False
+                    Caption=Корпус на склад
+                    CaptionColorDown=220,235,245
+                    CaptionColorNormal=220,235,245
+                    CaptionColorNormalA=255,225,170
+                    CaptionSme=0,0,0,0
+                    Font=Font.2SmallBold
+                    ImageDown=GI,Bm.FHDNT.ButtonDown
+                    ImageNormal=GI,Bm.FHDNT.Button
+                    ImageNormalA=GI,Bm.FHDNT.ButtonActive
+                    Kind=Normal
+                    KindHit=Rect
+                    MouseBlocking=True
+                    Name=FHDNT_StorageButton17
+                    OnPressCode ~{
+                        0000=if(CT('FHDNT.Build')!='TEST') { exit; }
+                        0001=ExecuteCodeFromString(GenerateCodeStringFromBlock('FHDNT.Code.AddWarehouse17'));
+                    }
+                    Pos=331,727,-2
+                    PosAutoCorrection=True
+                    PosAutoCorrectionXCoef=0.5
+                    PosAutoCorrectionYCoef=0.5
+                    Size=152,20
+                    Style=Style.GB.SoundNormal
+                }
+            }
+            Panel ^{
+
+            }
+            Panel ^{
+                Panel ^{
+                    GAI ^{
+
+                    }
+                    GAI ^{
+                        Active=False
+                        Frame=[42,0-83]
+                        Image=Bm.FHDNTLevel20.2Use
+                        KindX=Center
+                        KindY=Center
+                        MouseBlocking=False
+                        MouseBlockingTest=False
+                        Name=FHDNT_Level20_Ship_2Use
+                        PBuf=False
+                        Pos=0,0,-1
+                        Size=139,92
+                        StopAfterOneCycle=False
+                    }
+                }
+                Panel ^{
+                    Panel ^{
+                        GAI ^{
+
+                        }
+                        GAI ^{
+
+                        }
+                        GAI ^{
+
+                        }
+                        GAI ^{
+
+                        }
+                        GAI ^{
+
+                        }
+                        GAI ^{
+
+                        }
+                        GAI ^{
+
+                        }
+                        GAI ^{
+
+                        }
+                        GAI ^{
+
+                        }
+                        GAI ^{
+
+                        }
+                        GAI ^{
+
+                        }
+                        GAI ^{
+
+                        }
+                        GAI ^{
+
+                        }
+                        GAI ^{
+
+                        }
+                        GAI ^{
+
+                        }
+                        GAI ^{
+
+                        }
+                        GAI ^{
+
+                        }
+                        GAI ^{
+
+                        }
+                        GAI ^{
+
+                        }
+                        GAI ^{
+
+                        }
+                        GAI ^{
+
+                        }
+                        GAI ^{
+
+                        }
+                        GAI ^{
+
+                        }
+                        GAI ^{
+
+                        }
+                        GAI ^{
+
+                        }
+                        GAI ^{
+
+                        }
+                        GAI ^{
+
+                        }
+                        GAI ^{
+
+                        }
+                        GAI ^{
+
+                        }
+                        GAI ^{
+
+                        }
+                        GAI ^{
+
+                        }
+                        GAI ^{
+
+                        }
+                        GAI ^{
+                            Active=False
+                            Frame=[42,0-83]
+                            Image=Bm.FHDNTLevel20.2LeftShort
+                            KindX=Center
+                            KindY=Center
+                            MouseBlocking=False
+                            MouseBlockingTest=False
+                            Name=FHDNT_Level20_Ship_2LeftShort
+                            PBuf=False
+                            Pos=0,0,1
+                            Size=460,617
+                            StopAfterOneCycle=False
+                        }
+                        GraphButton ^{
+                            KindHit=Rect
+                        }
+                        GraphButton ^{
+                            KindHit=Rect
+                        }
+                        GraphButton ^{
+                            KindHit=Rect
+                        }
+                    }
+                    Panel ^{
+                        GAI ^{
+                            Active=False
+                            Frame=[42,0-83]
+                            Image=Bm.FHDNTLevel20.2Bottom
+                            KindX=Center
+                            KindY=Center
+                            MouseBlocking=False
+                            MouseBlockingTest=False
+                            Name=FHDNT_Level20_Ship_2Bottom
+                            PBuf=False
+                            Pos=0,0,1
+                            Size=351,90
+                            StopAfterOneCycle=False
+                        }
+                        Image ^{
+                            Name=FHDNT_FrameBottom
+                        }
+                    }
+                    Panel ^{
+                        GAI ^{
+                            Active=False
+                            Frame=[42,0-83]
+                            Image=Bm.FHDNTLevel20.2DSBg
+                            KindX=Center
+                            KindY=Center
+                            MouseBlocking=False
+                            MouseBlockingTest=False
+                            Name=FHDNT_Level20_Ship_2DSBg
+                            PBuf=False
+                            Pos=0,0,8
+                            Size=351,90
+                            StopAfterOneCycle=False
+                        }
+                        Image ^{
+                            Name=FHDNT_FrameDSBg
+                        }
+                    }
+                }
+                Panel ^{
+                    Panel ^{
+
+                    }
+                    Panel ^{
+                        GAI ^{
+
+                        }
+                        GAI ^{
+                            Active=False
+                            Frame=[42,0-83]
+                            Image=Bm.FHDNTLevel20.2Right
+                            KindX=Center
+                            KindY=Center
+                            MouseBlocking=False
+                            MouseBlockingTest=False
+                            Name=FHDNT_Level20_Ship_2Right
+                            PBuf=False
+                            Pos=0,0,2
+                            Size=328,598
+                            StopAfterOneCycle=False
+                        }
+                    }
+                    Panel ^{
+                        GAI ^{
+                            Active=False
+                            Frame=[42,0-83]
+                            Image=Bm.FHDNTLevel20.2RHBg
+                            KindX=Center
+                            KindY=Center
+                            MouseBlocking=False
+                            MouseBlockingTest=False
+                            Name=FHDNT_Level20_Ship_2RHBg
+                            PBuf=False
+                            Pos=0,0,1
+                            Size=328,598
+                            StopAfterOneCycle=False
+                        }
+                    }
+                }
+            }
+            Panel ^{
+
+            }
+            Panel ^{
+                Panel ^{
+                    Active=False
+                    GraphButton ^{
+                        Caption=X
+                        CaptionColorDown=220,235,245
+                        CaptionColorNormal=220,235,245
+                        CaptionColorNormalA=255,225,170
+                        CaptionSme=0,0,0,0
+                        Font=Font.2SmallBold
+                        ImageDown=GI,Bm.FHDNT.ButtonDown40
+                        ImageNormal=GI,Bm.FHDNT.Button40
+                        ImageNormalA=GI,Bm.FHDNT.ButtonActive40
+                        Kind=Normal
+                        KindHit=Rect
+                        Name=FHDNT_CloseSkills
+                        OnPressCode ~{
+                            0000=InterfaceState('Ship','FHDNT_SkillPicker',0); ExecuteCodeFromString(GenerateCodeStringFromBlock('FHDNT.Code.ModalInput'));
+                        }
+                        Pos=378,1,-2
+                        Size=40,20
+                        Style=Style.GB.SoundNormal
+                    }
+                    GraphButton ^{
+                        Caption=Комплексная защита
+                        CaptionColorDown=220,235,245
+                        CaptionColorNormal=220,235,245
+                        CaptionColorNormalA=255,225,170
+                        CaptionSme=0,0,0,0
+                        Font=Font.2SmallBold
+                        Help=FHDNT.Skills.1.Description
+                        ImageDisable=GI,Bm.FHDNT.Button200
+                        ImageDown=GI,Bm.FHDNT.ButtonDown200
+                        ImageNormal=GI,Bm.FHDNT.Button200
+                        ImageNormalA=GI,Bm.FHDNT.ButtonActive200
+                        Kind=Normal
+                        KindHit=Rect
+                        Name=FHDNT_SkillChoice1
+                        OnMouseEnterCode ~{
+                            0000=InterfaceText('Ship','FHDNT_SkillDescription',CT('FHDNT.Skills.1.Description'));
+                        }
+                        OnPressCode ~{
+                            0000=dword h=ShipItems(Player(),0); ExecuteCodeFromString(GenerateCodeStringFromBlock('FHDNT.Code.ChooseSkill'),'h',h,'choice',1);
+                        }
+                        Pos=8,24,-2
+                        Size=200,20
+                        Style=Style.GB.SoundNormal
+                    }
+                    GraphButton ^{
+                        Caption=Ускоренный ремонт
+                        CaptionColorDown=220,235,245
+                        CaptionColorNormal=220,235,245
+                        CaptionColorNormalA=255,225,170
+                        CaptionSme=0,0,0,0
+                        Font=Font.2SmallBold
+                        Help=FHDNT.Skills.2.Description
+                        ImageDisable=GI,Bm.FHDNT.Button200
+                        ImageDown=GI,Bm.FHDNT.ButtonDown200
+                        ImageNormal=GI,Bm.FHDNT.Button200
+                        ImageNormalA=GI,Bm.FHDNT.ButtonActive200
+                        Kind=Normal
+                        KindHit=Rect
+                        Name=FHDNT_SkillChoice2
+                        OnMouseEnterCode ~{
+                            0000=InterfaceText('Ship','FHDNT_SkillDescription',CT('FHDNT.Skills.2.Description'));
+                        }
+                        OnPressCode ~{
+                            0000=dword h=ShipItems(Player(),0); ExecuteCodeFromString(GenerateCodeStringFromBlock('FHDNT.Code.ChooseSkill'),'h',h,'choice',2);
+                        }
+                        Pos=8,47,-2
+                        Size=200,20
+                        Style=Style.GB.SoundNormal
+                    }
+                    GraphButton ^{
+                        Caption=Форсированный двигатель
+                        CaptionColorDown=220,235,245
+                        CaptionColorNormal=220,235,245
+                        CaptionColorNormalA=255,225,170
+                        CaptionSme=0,0,0,0
+                        Font=Font.2SmallBold
+                        Help=FHDNT.Skills.3.Description
+                        ImageDisable=GI,Bm.FHDNT.Button200
+                        ImageDown=GI,Bm.FHDNT.ButtonDown200
+                        ImageNormal=GI,Bm.FHDNT.Button200
+                        ImageNormalA=GI,Bm.FHDNT.ButtonActive200
+                        Kind=Normal
+                        KindHit=Rect
+                        Name=FHDNT_SkillChoice3
+                        OnMouseEnterCode ~{
+                            0000=InterfaceText('Ship','FHDNT_SkillDescription',CT('FHDNT.Skills.3.Description'));
+                        }
+                        OnPressCode ~{
+                            0000=dword h=ShipItems(Player(),0); ExecuteCodeFromString(GenerateCodeStringFromBlock('FHDNT.Code.ChooseSkill'),'h',h,'choice',3);
+                        }
+                        Pos=8,70,-2
+                        Size=200,20
+                        Style=Style.GB.SoundNormal
+                    }
+                    GraphButton ^{
+                        Caption=Усиленная броня
+                        CaptionColorDown=220,235,245
+                        CaptionColorNormal=220,235,245
+                        CaptionColorNormalA=255,225,170
+                        CaptionSme=0,0,0,0
+                        Font=Font.2SmallBold
+                        Help=FHDNT.Skills.4.Description
+                        ImageDisable=GI,Bm.FHDNT.Button200
+                        ImageDown=GI,Bm.FHDNT.ButtonDown200
+                        ImageNormal=GI,Bm.FHDNT.Button200
+                        ImageNormalA=GI,Bm.FHDNT.ButtonActive200
+                        Kind=Normal
+                        KindHit=Rect
+                        Name=FHDNT_SkillChoice4
+                        OnMouseEnterCode ~{
+                            0000=InterfaceText('Ship','FHDNT_SkillDescription',CT('FHDNT.Skills.4.Description'));
+                        }
+                        OnPressCode ~{
+                            0000=dword h=ShipItems(Player(),0); ExecuteCodeFromString(GenerateCodeStringFromBlock('FHDNT.Code.ChooseSkill'),'h',h,'choice',4);
+                        }
+                        Pos=8,93,-2
+                        Size=200,20
+                        Style=Style.GB.SoundNormal
+                    }
+                    GraphButton ^{
+                        Caption=Усиление ГЗП
+                        CaptionColorDown=220,235,245
+                        CaptionColorNormal=220,235,245
+                        CaptionColorNormalA=255,225,170
+                        CaptionSme=0,0,0,0
+                        Font=Font.2SmallBold
+                        Help=FHDNT.Skills.5.Description
+                        ImageDisable=GI,Bm.FHDNT.Button200
+                        ImageDown=GI,Bm.FHDNT.ButtonDown200
+                        ImageNormal=GI,Bm.FHDNT.Button200
+                        ImageNormalA=GI,Bm.FHDNT.ButtonActive200
+                        Kind=Normal
+                        KindHit=Rect
+                        Name=FHDNT_SkillChoice5
+                        OnMouseEnterCode ~{
+                            0000=InterfaceText('Ship','FHDNT_SkillDescription',CT('FHDNT.Skills.5.Description'));
+                        }
+                        OnPressCode ~{
+                            0000=dword h=ShipItems(Player(),0); ExecuteCodeFromString(GenerateCodeStringFromBlock('FHDNT.Code.ChooseSkill'),'h',h,'choice',5);
+                        }
+                        Pos=8,116,-2
+                        Size=200,20
+                        Style=Style.GB.SoundNormal
+                    }
+                    GraphButton ^{
+                        Caption=Дальнее обнаружение
+                        CaptionColorDown=220,235,245
+                        CaptionColorNormal=220,235,245
+                        CaptionColorNormalA=255,225,170
+                        CaptionSme=0,0,0,0
+                        Font=Font.2SmallBold
+                        Help=FHDNT.Skills.6.Description
+                        ImageDisable=GI,Bm.FHDNT.Button200
+                        ImageDown=GI,Bm.FHDNT.ButtonDown200
+                        ImageNormal=GI,Bm.FHDNT.Button200
+                        ImageNormalA=GI,Bm.FHDNT.ButtonActive200
+                        Kind=Normal
+                        KindHit=Rect
+                        Name=FHDNT_SkillChoice6
+                        OnMouseEnterCode ~{
+                            0000=InterfaceText('Ship','FHDNT_SkillDescription',CT('FHDNT.Skills.6.Description'));
+                        }
+                        OnPressCode ~{
+                            0000=dword h=ShipItems(Player(),0); ExecuteCodeFromString(GenerateCodeStringFromBlock('FHDNT.Code.ChooseSkill'),'h',h,'choice',6);
+                        }
+                        Pos=8,139,-2
+                        Size=200,20
+                        Style=Style.GB.SoundNormal
+                    }
+                    GraphButton ^{
+                        Caption=Усиленный сканер
+                        CaptionColorDown=220,235,245
+                        CaptionColorNormal=220,235,245
+                        CaptionColorNormalA=255,225,170
+                        CaptionSme=0,0,0,0
+                        Font=Font.2SmallBold
+                        Help=FHDNT.Skills.7.Description
+                        ImageDisable=GI,Bm.FHDNT.Button200
+                        ImageDown=GI,Bm.FHDNT.ButtonDown200
+                        ImageNormal=GI,Bm.FHDNT.Button200
+                        ImageNormalA=GI,Bm.FHDNT.ButtonActive200
+                        Kind=Normal
+                        KindHit=Rect
+                        Name=FHDNT_SkillChoice7
+                        OnMouseEnterCode ~{
+                            0000=InterfaceText('Ship','FHDNT_SkillDescription',CT('FHDNT.Skills.7.Description'));
+                        }
+                        OnPressCode ~{
+                            0000=dword h=ShipItems(Player(),0); ExecuteCodeFromString(GenerateCodeStringFromBlock('FHDNT.Code.ChooseSkill'),'h',h,'choice',7);
+                        }
+                        Pos=8,162,-2
+                        Size=200,20
+                        Style=Style.GB.SoundNormal
+                    }
+                    GraphButton ^{
+                        Caption=Дальний захват
+                        CaptionColorDown=220,235,245
+                        CaptionColorNormal=220,235,245
+                        CaptionColorNormalA=255,225,170
+                        CaptionSme=0,0,0,0
+                        Font=Font.2SmallBold
+                        Help=FHDNT.Skills.8.Description
+                        ImageDisable=GI,Bm.FHDNT.Button200
+                        ImageDown=GI,Bm.FHDNT.ButtonDown200
+                        ImageNormal=GI,Bm.FHDNT.Button200
+                        ImageNormalA=GI,Bm.FHDNT.ButtonActive200
+                        Kind=Normal
+                        KindHit=Rect
+                        Name=FHDNT_SkillChoice8
+                        OnMouseEnterCode ~{
+                            0000=InterfaceText('Ship','FHDNT_SkillDescription',CT('FHDNT.Skills.8.Description'));
+                        }
+                        OnPressCode ~{
+                            0000=dword h=ShipItems(Player(),0); ExecuteCodeFromString(GenerateCodeStringFromBlock('FHDNT.Code.ChooseSkill'),'h',h,'choice',8);
+                        }
+                        Pos=8,185,-2
+                        Size=200,20
+                        Style=Style.GB.SoundNormal
+                    }
+                    GraphButton ^{
+                        Caption=Мощный захват
+                        CaptionColorDown=220,235,245
+                        CaptionColorNormal=220,235,245
+                        CaptionColorNormalA=255,225,170
+                        CaptionSme=0,0,0,0
+                        Font=Font.2SmallBold
+                        Help=FHDNT.Skills.9.Description
+                        ImageDisable=GI,Bm.FHDNT.Button200
+                        ImageDown=GI,Bm.FHDNT.ButtonDown200
+                        ImageNormal=GI,Bm.FHDNT.Button200
+                        ImageNormalA=GI,Bm.FHDNT.ButtonActive200
+                        Kind=Normal
+                        KindHit=Rect
+                        Name=FHDNT_SkillChoice9
+                        OnMouseEnterCode ~{
+                            0000=InterfaceText('Ship','FHDNT_SkillDescription',CT('FHDNT.Skills.9.Description'));
+                        }
+                        OnPressCode ~{
+                            0000=dword h=ShipItems(Player(),0); ExecuteCodeFromString(GenerateCodeStringFromBlock('FHDNT.Code.ChooseSkill'),'h',h,'choice',9);
+                        }
+                        Pos=8,208,-2
+                        Size=200,20
+                        Style=Style.GB.SoundNormal
+                    }
+                    GraphButton ^{
+                        Caption=Дополнительный бак
+                        CaptionColorDown=220,235,245
+                        CaptionColorNormal=220,235,245
+                        CaptionColorNormalA=255,225,170
+                        CaptionSme=0,0,0,0
+                        Font=Font.2SmallBold
+                        Help=FHDNT.Skills.10.Description
+                        ImageDisable=GI,Bm.FHDNT.Button200
+                        ImageDown=GI,Bm.FHDNT.ButtonDown200
+                        ImageNormal=GI,Bm.FHDNT.Button200
+                        ImageNormalA=GI,Bm.FHDNT.ButtonActive200
+                        Kind=Normal
+                        KindHit=Rect
+                        Name=FHDNT_SkillChoice10
+                        OnMouseEnterCode ~{
+                            0000=InterfaceText('Ship','FHDNT_SkillDescription',CT('FHDNT.Skills.10.Description'));
+                        }
+                        OnPressCode ~{
+                            0000=dword h=ShipItems(Player(),0); ExecuteCodeFromString(GenerateCodeStringFromBlock('FHDNT.Code.ChooseSkill'),'h',h,'choice',10);
+                        }
+                        Pos=8,231,-2
+                        Size=200,20
+                        Style=Style.GB.SoundNormal
+                    }
+                    GraphButton ^{
+                        Caption=Двойной залп
+                        CaptionColorDown=220,235,245
+                        CaptionColorNormal=220,235,245
+                        CaptionColorNormalA=255,225,170
+                        CaptionSme=0,0,0,0
+                        Font=Font.2SmallBold
+                        Help=FHDNT.Skills.11.Description
+                        ImageDisable=GI,Bm.FHDNT.Button200
+                        ImageDown=GI,Bm.FHDNT.ButtonDown200
+                        ImageNormal=GI,Bm.FHDNT.Button200
+                        ImageNormalA=GI,Bm.FHDNT.ButtonActive200
+                        Kind=Normal
+                        KindHit=Rect
+                        Name=FHDNT_SkillChoice11
+                        OnMouseEnterCode ~{
+                            0000=InterfaceText('Ship','FHDNT_SkillDescription',CT('FHDNT.Skills.11.Description'));
+                        }
+                        OnPressCode ~{
+                            0000=dword h=ShipItems(Player(),0); ExecuteCodeFromString(GenerateCodeStringFromBlock('FHDNT.Code.ChooseSkill'),'h',h,'choice',11);
+                        }
+                        Pos=216,24,-2
+                        Size=200,20
+                        Style=Style.GB.SoundNormal
+                    }
+                    GraphButton ^{
+                        Caption=Ракетный ускоритель
+                        CaptionColorDown=220,235,245
+                        CaptionColorNormal=220,235,245
+                        CaptionColorNormalA=255,225,170
+                        CaptionSme=0,0,0,0
+                        Font=Font.2SmallBold
+                        Help=FHDNT.Skills.12.Description
+                        ImageDisable=GI,Bm.FHDNT.Button200
+                        ImageDown=GI,Bm.FHDNT.ButtonDown200
+                        ImageNormal=GI,Bm.FHDNT.Button200
+                        ImageNormalA=GI,Bm.FHDNT.ButtonActive200
+                        Kind=Normal
+                        KindHit=Rect
+                        Name=FHDNT_SkillChoice12
+                        OnMouseEnterCode ~{
+                            0000=InterfaceText('Ship','FHDNT_SkillDescription',CT('FHDNT.Skills.12.Description'));
+                        }
+                        OnPressCode ~{
+                            0000=dword h=ShipItems(Player(),0); ExecuteCodeFromString(GenerateCodeStringFromBlock('FHDNT.Code.ChooseSkill'),'h',h,'choice',12);
+                        }
+                        Pos=216,47,-2
+                        Size=200,20
+                        Style=Style.GB.SoundNormal
+                    }
+                    GraphButton ^{
+                        Caption=Увеличенный боекомплект
+                        CaptionColorDown=220,235,245
+                        CaptionColorNormal=220,235,245
+                        CaptionColorNormalA=255,225,170
+                        CaptionSme=0,0,0,0
+                        Font=Font.2SmallBold
+                        Help=FHDNT.Skills.13.Description
+                        ImageDisable=GI,Bm.FHDNT.Button200
+                        ImageDown=GI,Bm.FHDNT.ButtonDown200
+                        ImageNormal=GI,Bm.FHDNT.Button200
+                        ImageNormalA=GI,Bm.FHDNT.ButtonActive200
+                        Kind=Normal
+                        KindHit=Rect
+                        Name=FHDNT_SkillChoice13
+                        OnMouseEnterCode ~{
+                            0000=InterfaceText('Ship','FHDNT_SkillDescription',CT('FHDNT.Skills.13.Description'));
+                        }
+                        OnPressCode ~{
+                            0000=dword h=ShipItems(Player(),0); ExecuteCodeFromString(GenerateCodeStringFromBlock('FHDNT.Code.ChooseSkill'),'h',h,'choice',13);
+                        }
+                        Pos=216,70,-2
+                        Size=200,20
+                        Style=Style.GB.SoundNormal
+                    }
+                    GraphButton ^{
+                        Caption=Механик-гонщик
+                        CaptionColorDown=220,235,245
+                        CaptionColorNormal=220,235,245
+                        CaptionColorNormalA=255,225,170
+                        CaptionSme=0,0,0,0
+                        Font=Font.2SmallBold
+                        Help=FHDNT.Skills.14.Description
+                        ImageDisable=GI,Bm.FHDNT.Button200
+                        ImageDown=GI,Bm.FHDNT.ButtonDown200
+                        ImageNormal=GI,Bm.FHDNT.Button200
+                        ImageNormalA=GI,Bm.FHDNT.ButtonActive200
+                        Kind=Normal
+                        KindHit=Rect
+                        Name=FHDNT_SkillChoice14
+                        OnMouseEnterCode ~{
+                            0000=InterfaceText('Ship','FHDNT_SkillDescription',CT('FHDNT.Skills.14.Description'));
+                        }
+                        OnPressCode ~{
+                            0000=dword h=ShipItems(Player(),0); ExecuteCodeFromString(GenerateCodeStringFromBlock('FHDNT.Code.ChooseSkill'),'h',h,'choice',14);
+                        }
+                        Pos=216,93,-2
+                        Size=200,20
+                        Style=Style.GB.SoundNormal
+                    }
+                    GraphButton ^{
+                        Caption=Дальняя разведка
+                        CaptionColorDown=220,235,245
+                        CaptionColorNormal=220,235,245
+                        CaptionColorNormalA=255,225,170
+                        CaptionSme=0,0,0,0
+                        Font=Font.2SmallBold
+                        Help=FHDNT.Skills.15.Description
+                        ImageDisable=GI,Bm.FHDNT.Button200
+                        ImageDown=GI,Bm.FHDNT.ButtonDown200
+                        ImageNormal=GI,Bm.FHDNT.Button200
+                        ImageNormalA=GI,Bm.FHDNT.ButtonActive200
+                        Kind=Normal
+                        KindHit=Rect
+                        Name=FHDNT_SkillChoice15
+                        OnMouseEnterCode ~{
+                            0000=InterfaceText('Ship','FHDNT_SkillDescription',CT('FHDNT.Skills.15.Description'));
+                        }
+                        OnPressCode ~{
+                            0000=dword h=ShipItems(Player(),0); ExecuteCodeFromString(GenerateCodeStringFromBlock('FHDNT.Code.ChooseSkill'),'h',h,'choice',15);
+                        }
+                        Pos=216,116,-2
+                        Size=200,20
+                        Style=Style.GB.SoundNormal
+                    }
+                    GraphButton ^{
+                        Caption=Универсальный захват
+                        CaptionColorDown=220,235,245
+                        CaptionColorNormal=220,235,245
+                        CaptionColorNormalA=255,225,170
+                        CaptionSme=0,0,0,0
+                        Font=Font.2SmallBold
+                        Help=FHDNT.Skills.16.Description
+                        ImageDisable=GI,Bm.FHDNT.Button200
+                        ImageDown=GI,Bm.FHDNT.ButtonDown200
+                        ImageNormal=GI,Bm.FHDNT.Button200
+                        ImageNormalA=GI,Bm.FHDNT.ButtonActive200
+                        Kind=Normal
+                        KindHit=Rect
+                        Name=FHDNT_SkillChoice16
+                        OnMouseEnterCode ~{
+                            0000=InterfaceText('Ship','FHDNT_SkillDescription',CT('FHDNT.Skills.16.Description'));
+                        }
+                        OnPressCode ~{
+                            0000=dword h=ShipItems(Player(),0); ExecuteCodeFromString(GenerateCodeStringFromBlock('FHDNT.Code.ChooseSkill'),'h',h,'choice',16);
+                        }
+                        Pos=216,139,-2
+                        Size=200,20
+                        Style=Style.GB.SoundNormal
+                    }
+                    GraphButton ^{
+                        Caption=Дальнобойные орудия
+                        CaptionColorDown=220,235,245
+                        CaptionColorNormal=220,235,245
+                        CaptionColorNormalA=255,225,170
+                        CaptionSme=0,0,0,0
+                        Font=Font.2SmallBold
+                        Help=FHDNT.Skills.17.Description
+                        ImageDisable=GI,Bm.FHDNT.Button200
+                        ImageDown=GI,Bm.FHDNT.ButtonDown200
+                        ImageNormal=GI,Bm.FHDNT.Button200
+                        ImageNormalA=GI,Bm.FHDNT.ButtonActive200
+                        Kind=Normal
+                        KindHit=Rect
+                        Name=FHDNT_SkillChoice17
+                        OnMouseEnterCode ~{
+                            0000=InterfaceText('Ship','FHDNT_SkillDescription',CT('FHDNT.Skills.17.Description'));
+                        }
+                        OnPressCode ~{
+                            0000=dword h=ShipItems(Player(),0); ExecuteCodeFromString(GenerateCodeStringFromBlock('FHDNT.Code.ChooseSkill'),'h',h,'choice',17);
+                        }
+                        Pos=216,162,-2
+                        Size=200,20
+                        Style=Style.GB.SoundNormal
+                    }
+                    GraphButton ^{
+                        Caption=Стабильный урон
+                        CaptionColorDown=220,235,245
+                        CaptionColorNormal=220,235,245
+                        CaptionColorNormalA=255,225,170
+                        CaptionSme=0,0,0,0
+                        Font=Font.2SmallBold
+                        Help=FHDNT.Skills.18.Description
+                        ImageDisable=GI,Bm.FHDNT.Button200
+                        ImageDown=GI,Bm.FHDNT.ButtonDown200
+                        ImageNormal=GI,Bm.FHDNT.Button200
+                        ImageNormalA=GI,Bm.FHDNT.ButtonActive200
+                        Kind=Normal
+                        KindHit=Rect
+                        Name=FHDNT_SkillChoice18
+                        OnMouseEnterCode ~{
+                            0000=InterfaceText('Ship','FHDNT_SkillDescription',CT('FHDNT.Skills.18.Description'));
+                        }
+                        OnPressCode ~{
+                            0000=dword h=ShipItems(Player(),0); ExecuteCodeFromString(GenerateCodeStringFromBlock('FHDNT.Code.ChooseSkill'),'h',h,'choice',18);
+                        }
+                        Pos=216,185,-2
+                        Size=200,20
+                        Style=Style.GB.SoundNormal
+                    }
+                    GraphButton ^{
+                        Caption=Пиковый урон
+                        CaptionColorDown=220,235,245
+                        CaptionColorNormal=220,235,245
+                        CaptionColorNormalA=255,225,170
+                        CaptionSme=0,0,0,0
+                        Font=Font.2SmallBold
+                        Help=FHDNT.Skills.19.Description
+                        ImageDisable=GI,Bm.FHDNT.Button200
+                        ImageDown=GI,Bm.FHDNT.ButtonDown200
+                        ImageNormal=GI,Bm.FHDNT.Button200
+                        ImageNormalA=GI,Bm.FHDNT.ButtonActive200
+                        Kind=Normal
+                        KindHit=Rect
+                        Name=FHDNT_SkillChoice19
+                        OnMouseEnterCode ~{
+                            0000=InterfaceText('Ship','FHDNT_SkillDescription',CT('FHDNT.Skills.19.Description'));
+                        }
+                        OnPressCode ~{
+                            0000=dword h=ShipItems(Player(),0); ExecuteCodeFromString(GenerateCodeStringFromBlock('FHDNT.Code.ChooseSkill'),'h',h,'choice',19);
+                        }
+                        Pos=216,208,-2
+                        Size=200,20
+                        Style=Style.GB.SoundNormal
+                    }
+                    GraphButton ^{
+                        Caption=Боевой комплекс
+                        CaptionColorDown=220,235,245
+                        CaptionColorNormal=220,235,245
+                        CaptionColorNormalA=255,225,170
+                        CaptionSme=0,0,0,0
+                        Font=Font.2SmallBold
+                        Help=FHDNT.Skills.20.Description
+                        ImageDisable=GI,Bm.FHDNT.Button200
+                        ImageDown=GI,Bm.FHDNT.ButtonDown200
+                        ImageNormal=GI,Bm.FHDNT.Button200
+                        ImageNormalA=GI,Bm.FHDNT.ButtonActive200
+                        Kind=Normal
+                        KindHit=Rect
+                        Name=FHDNT_SkillChoice20
+                        OnMouseEnterCode ~{
+                            0000=InterfaceText('Ship','FHDNT_SkillDescription',CT('FHDNT.Skills.20.Description'));
+                        }
+                        OnPressCode ~{
+                            0000=dword h=ShipItems(Player(),0); ExecuteCodeFromString(GenerateCodeStringFromBlock('FHDNT.Code.ChooseSkill'),'h',h,'choice',20);
+                        }
+                        Pos=216,231,-2
+                        Size=200,20
+                        Style=Style.GB.SoundNormal
+                    }
+                    Image ^{
+                        Image=GI,Bm.FHDNT.SkillBack
+                        Pos=0,0,0
+                        Size=420,352
+                    }
+                    Label ^{
+                        Font=Font.2SmallBold
+                        Name=FHDNT_SkillTitle
+                        Pos=8,1,-2
+                        Size=350,20
+                        Text=Выберите навык
+                        TextColor=220,235,245
+                    }
+                    Label ^{
+                        Font=Font.2Small
+                        Name=FHDNT_SkillDescription
+                        Pos=8,264,-2
+                        Size=404,72
+                        Text=Наведите на талант - здесь появится описание его эффекта.
+                        TextColor=255,225,170
+                        WordWrap=True
+                    }
+                    MouseBlocking=True
+                    Name=FHDNT_SkillPicker
+                    Pos=200,326,-20
+                    PosAutoCorrection=True
+                    PosAutoCorrectionXCoef=0.5
+                    PosAutoCorrectionYCoef=0.5
+                    Size=420,352
+                }
+                Panel ^{
+                    Active=False
+                    GraphButton ^{
+                        Caption=0
+                        CaptionColorDown=220,235,245
+                        CaptionColorNormal=220,235,245
+                        CaptionColorNormalA=255,225,170
+                        CaptionSme=0,0,0,0
+                        Font=Font.2SmallBold
+                        ImageDown=GI,Bm.FHDNT.ButtonDown40
+                        ImageNormal=GI,Bm.FHDNT.Button40
+                        ImageNormalA=GI,Bm.FHDNT.ButtonActive40
+                        Kind=Normal
+                        KindHit=Rect
+                        Name=FHDNT_Choose0
+                        OnPressCode ~{
+                            0000=dword h=ShipItems(Player(),0);
+                            0001=if(CT('FHDNT.Build')!='TEST' || CT('FHDNT.LevelSelection')!=1) { exit; }
+                            0002=ExecuteCodeFromString(GenerateCodeStringFromBlock('FHDNT.Code.TestLevel'),'h',h,'target',0);
+                        }
+                        Pos=0,0,-2
+                        Size=40,20
+                        Style=Style.GB.SoundNormal
+                    }
+                    GraphButton ^{
+                        Caption=1
+                        CaptionColorDown=220,235,245
+                        CaptionColorNormal=220,235,245
+                        CaptionColorNormalA=255,225,170
+                        CaptionSme=0,0,0,0
+                        Font=Font.2SmallBold
+                        ImageDown=GI,Bm.FHDNT.ButtonDown40
+                        ImageNormal=GI,Bm.FHDNT.Button40
+                        ImageNormalA=GI,Bm.FHDNT.ButtonActive40
+                        Kind=Normal
+                        KindHit=Rect
+                        Name=FHDNT_Choose1
+                        OnPressCode ~{
+                            0000=dword h=ShipItems(Player(),0);
+                            0001=if(CT('FHDNT.Build')!='TEST' || CT('FHDNT.LevelSelection')!=1) { exit; }
+                            0002=ExecuteCodeFromString(GenerateCodeStringFromBlock('FHDNT.Code.TestLevel'),'h',h,'target',1);
+                        }
+                        Pos=42,0,-2
+                        Size=40,20
+                        Style=Style.GB.SoundNormal
+                    }
+                    GraphButton ^{
+                        Caption=2
+                        CaptionColorDown=220,235,245
+                        CaptionColorNormal=220,235,245
+                        CaptionColorNormalA=255,225,170
+                        CaptionSme=0,0,0,0
+                        Font=Font.2SmallBold
+                        ImageDown=GI,Bm.FHDNT.ButtonDown40
+                        ImageNormal=GI,Bm.FHDNT.Button40
+                        ImageNormalA=GI,Bm.FHDNT.ButtonActive40
+                        Kind=Normal
+                        KindHit=Rect
+                        Name=FHDNT_Choose2
+                        OnPressCode ~{
+                            0000=dword h=ShipItems(Player(),0);
+                            0001=if(CT('FHDNT.Build')!='TEST' || CT('FHDNT.LevelSelection')!=1) { exit; }
+                            0002=ExecuteCodeFromString(GenerateCodeStringFromBlock('FHDNT.Code.TestLevel'),'h',h,'target',2);
+                        }
+                        Pos=84,0,-2
+                        Size=40,20
+                        Style=Style.GB.SoundNormal
+                    }
+                    GraphButton ^{
+                        Caption=3
+                        CaptionColorDown=220,235,245
+                        CaptionColorNormal=220,235,245
+                        CaptionColorNormalA=255,225,170
+                        CaptionSme=0,0,0,0
+                        Font=Font.2SmallBold
+                        ImageDown=GI,Bm.FHDNT.ButtonDown40
+                        ImageNormal=GI,Bm.FHDNT.Button40
+                        ImageNormalA=GI,Bm.FHDNT.ButtonActive40
+                        Kind=Normal
+                        KindHit=Rect
+                        Name=FHDNT_Choose3
+                        OnPressCode ~{
+                            0000=dword h=ShipItems(Player(),0);
+                            0001=if(CT('FHDNT.Build')!='TEST' || CT('FHDNT.LevelSelection')!=1) { exit; }
+                            0002=ExecuteCodeFromString(GenerateCodeStringFromBlock('FHDNT.Code.TestLevel'),'h',h,'target',3);
+                        }
+                        Pos=126,0,-2
+                        Size=40,20
+                        Style=Style.GB.SoundNormal
+                    }
+                    GraphButton ^{
+                        Caption=4
+                        CaptionColorDown=220,235,245
+                        CaptionColorNormal=220,235,245
+                        CaptionColorNormalA=255,225,170
+                        CaptionSme=0,0,0,0
+                        Font=Font.2SmallBold
+                        ImageDown=GI,Bm.FHDNT.ButtonDown40
+                        ImageNormal=GI,Bm.FHDNT.Button40
+                        ImageNormalA=GI,Bm.FHDNT.ButtonActive40
+                        Kind=Normal
+                        KindHit=Rect
+                        Name=FHDNT_Choose4
+                        OnPressCode ~{
+                            0000=dword h=ShipItems(Player(),0);
+                            0001=if(CT('FHDNT.Build')!='TEST' || CT('FHDNT.LevelSelection')!=1) { exit; }
+                            0002=ExecuteCodeFromString(GenerateCodeStringFromBlock('FHDNT.Code.TestLevel'),'h',h,'target',4);
+                        }
+                        Pos=168,0,-2
+                        Size=40,20
+                        Style=Style.GB.SoundNormal
+                    }
+                    GraphButton ^{
+                        Caption=5
+                        CaptionColorDown=220,235,245
+                        CaptionColorNormal=220,235,245
+                        CaptionColorNormalA=255,225,170
+                        CaptionSme=0,0,0,0
+                        Font=Font.2SmallBold
+                        ImageDown=GI,Bm.FHDNT.ButtonDown40
+                        ImageNormal=GI,Bm.FHDNT.Button40
+                        ImageNormalA=GI,Bm.FHDNT.ButtonActive40
+                        Kind=Normal
+                        KindHit=Rect
+                        Name=FHDNT_Choose5
+                        OnPressCode ~{
+                            0000=dword h=ShipItems(Player(),0);
+                            0001=if(CT('FHDNT.Build')!='TEST' || CT('FHDNT.LevelSelection')!=1) { exit; }
+                            0002=ExecuteCodeFromString(GenerateCodeStringFromBlock('FHDNT.Code.TestLevel'),'h',h,'target',5);
+                        }
+                        Pos=210,0,-2
+                        Size=40,20
+                        Style=Style.GB.SoundNormal
+                    }
+                    GraphButton ^{
+                        Caption=6
+                        CaptionColorDown=220,235,245
+                        CaptionColorNormal=220,235,245
+                        CaptionColorNormalA=255,225,170
+                        CaptionSme=0,0,0,0
+                        Font=Font.2SmallBold
+                        ImageDown=GI,Bm.FHDNT.ButtonDown40
+                        ImageNormal=GI,Bm.FHDNT.Button40
+                        ImageNormalA=GI,Bm.FHDNT.ButtonActive40
+                        Kind=Normal
+                        KindHit=Rect
+                        Name=FHDNT_Choose6
+                        OnPressCode ~{
+                            0000=dword h=ShipItems(Player(),0);
+                            0001=if(CT('FHDNT.Build')!='TEST' || CT('FHDNT.LevelSelection')!=1) { exit; }
+                            0002=ExecuteCodeFromString(GenerateCodeStringFromBlock('FHDNT.Code.TestLevel'),'h',h,'target',6);
+                        }
+                        Pos=252,0,-2
+                        Size=40,20
+                        Style=Style.GB.SoundNormal
+                    }
+                    GraphButton ^{
+                        Caption=7
+                        CaptionColorDown=220,235,245
+                        CaptionColorNormal=220,235,245
+                        CaptionColorNormalA=255,225,170
+                        CaptionSme=0,0,0,0
+                        Font=Font.2SmallBold
+                        ImageDown=GI,Bm.FHDNT.ButtonDown40
+                        ImageNormal=GI,Bm.FHDNT.Button40
+                        ImageNormalA=GI,Bm.FHDNT.ButtonActive40
+                        Kind=Normal
+                        KindHit=Rect
+                        Name=FHDNT_Choose7
+                        OnPressCode ~{
+                            0000=dword h=ShipItems(Player(),0);
+                            0001=if(CT('FHDNT.Build')!='TEST' || CT('FHDNT.LevelSelection')!=1) { exit; }
+                            0002=ExecuteCodeFromString(GenerateCodeStringFromBlock('FHDNT.Code.TestLevel'),'h',h,'target',7);
+                        }
+                        Pos=0,22,-2
+                        Size=40,20
+                        Style=Style.GB.SoundNormal
+                    }
+                    GraphButton ^{
+                        Caption=8
+                        CaptionColorDown=220,235,245
+                        CaptionColorNormal=220,235,245
+                        CaptionColorNormalA=255,225,170
+                        CaptionSme=0,0,0,0
+                        Font=Font.2SmallBold
+                        ImageDown=GI,Bm.FHDNT.ButtonDown40
+                        ImageNormal=GI,Bm.FHDNT.Button40
+                        ImageNormalA=GI,Bm.FHDNT.ButtonActive40
+                        Kind=Normal
+                        KindHit=Rect
+                        Name=FHDNT_Choose8
+                        OnPressCode ~{
+                            0000=dword h=ShipItems(Player(),0);
+                            0001=if(CT('FHDNT.Build')!='TEST' || CT('FHDNT.LevelSelection')!=1) { exit; }
+                            0002=ExecuteCodeFromString(GenerateCodeStringFromBlock('FHDNT.Code.TestLevel'),'h',h,'target',8);
+                        }
+                        Pos=42,22,-2
+                        Size=40,20
+                        Style=Style.GB.SoundNormal
+                    }
+                    GraphButton ^{
+                        Caption=9
+                        CaptionColorDown=220,235,245
+                        CaptionColorNormal=220,235,245
+                        CaptionColorNormalA=255,225,170
+                        CaptionSme=0,0,0,0
+                        Font=Font.2SmallBold
+                        ImageDown=GI,Bm.FHDNT.ButtonDown40
+                        ImageNormal=GI,Bm.FHDNT.Button40
+                        ImageNormalA=GI,Bm.FHDNT.ButtonActive40
+                        Kind=Normal
+                        KindHit=Rect
+                        Name=FHDNT_Choose9
+                        OnPressCode ~{
+                            0000=dword h=ShipItems(Player(),0);
+                            0001=if(CT('FHDNT.Build')!='TEST' || CT('FHDNT.LevelSelection')!=1) { exit; }
+                            0002=ExecuteCodeFromString(GenerateCodeStringFromBlock('FHDNT.Code.TestLevel'),'h',h,'target',9);
+                        }
+                        Pos=84,22,-2
+                        Size=40,20
+                        Style=Style.GB.SoundNormal
+                    }
+                    GraphButton ^{
+                        Caption=10
+                        CaptionColorDown=220,235,245
+                        CaptionColorNormal=220,235,245
+                        CaptionColorNormalA=255,225,170
+                        CaptionSme=0,0,0,0
+                        Font=Font.2SmallBold
+                        ImageDown=GI,Bm.FHDNT.ButtonDown40
+                        ImageNormal=GI,Bm.FHDNT.Button40
+                        ImageNormalA=GI,Bm.FHDNT.ButtonActive40
+                        Kind=Normal
+                        KindHit=Rect
+                        Name=FHDNT_Choose10
+                        OnPressCode ~{
+                            0000=dword h=ShipItems(Player(),0);
+                            0001=if(CT('FHDNT.Build')!='TEST' || CT('FHDNT.LevelSelection')!=1) { exit; }
+                            0002=ExecuteCodeFromString(GenerateCodeStringFromBlock('FHDNT.Code.TestLevel'),'h',h,'target',10);
+                        }
+                        Pos=126,22,-2
+                        Size=40,20
+                        Style=Style.GB.SoundNormal
+                    }
+                    GraphButton ^{
+                        Caption=11
+                        CaptionColorDown=220,235,245
+                        CaptionColorNormal=220,235,245
+                        CaptionColorNormalA=255,225,170
+                        CaptionSme=0,0,0,0
+                        Font=Font.2SmallBold
+                        ImageDown=GI,Bm.FHDNT.ButtonDown40
+                        ImageNormal=GI,Bm.FHDNT.Button40
+                        ImageNormalA=GI,Bm.FHDNT.ButtonActive40
+                        Kind=Normal
+                        KindHit=Rect
+                        Name=FHDNT_Choose11
+                        OnPressCode ~{
+                            0000=dword h=ShipItems(Player(),0);
+                            0001=if(CT('FHDNT.Build')!='TEST' || CT('FHDNT.LevelSelection')!=1) { exit; }
+                            0002=ExecuteCodeFromString(GenerateCodeStringFromBlock('FHDNT.Code.TestLevel'),'h',h,'target',11);
+                        }
+                        Pos=168,22,-2
+                        Size=40,20
+                        Style=Style.GB.SoundNormal
+                    }
+                    GraphButton ^{
+                        Caption=12
+                        CaptionColorDown=220,235,245
+                        CaptionColorNormal=220,235,245
+                        CaptionColorNormalA=255,225,170
+                        CaptionSme=0,0,0,0
+                        Font=Font.2SmallBold
+                        ImageDown=GI,Bm.FHDNT.ButtonDown40
+                        ImageNormal=GI,Bm.FHDNT.Button40
+                        ImageNormalA=GI,Bm.FHDNT.ButtonActive40
+                        Kind=Normal
+                        KindHit=Rect
+                        Name=FHDNT_Choose12
+                        OnPressCode ~{
+                            0000=dword h=ShipItems(Player(),0);
+                            0001=if(CT('FHDNT.Build')!='TEST' || CT('FHDNT.LevelSelection')!=1) { exit; }
+                            0002=ExecuteCodeFromString(GenerateCodeStringFromBlock('FHDNT.Code.TestLevel'),'h',h,'target',12);
+                        }
+                        Pos=210,22,-2
+                        Size=40,20
+                        Style=Style.GB.SoundNormal
+                    }
+                    GraphButton ^{
+                        Caption=13
+                        CaptionColorDown=220,235,245
+                        CaptionColorNormal=220,235,245
+                        CaptionColorNormalA=255,225,170
+                        CaptionSme=0,0,0,0
+                        Font=Font.2SmallBold
+                        ImageDown=GI,Bm.FHDNT.ButtonDown40
+                        ImageNormal=GI,Bm.FHDNT.Button40
+                        ImageNormalA=GI,Bm.FHDNT.ButtonActive40
+                        Kind=Normal
+                        KindHit=Rect
+                        Name=FHDNT_Choose13
+                        OnPressCode ~{
+                            0000=dword h=ShipItems(Player(),0);
+                            0001=if(CT('FHDNT.Build')!='TEST' || CT('FHDNT.LevelSelection')!=1) { exit; }
+                            0002=ExecuteCodeFromString(GenerateCodeStringFromBlock('FHDNT.Code.TestLevel'),'h',h,'target',13);
+                        }
+                        Pos=252,22,-2
+                        Size=40,20
+                        Style=Style.GB.SoundNormal
+                    }
+                    GraphButton ^{
+                        Caption=14
+                        CaptionColorDown=220,235,245
+                        CaptionColorNormal=220,235,245
+                        CaptionColorNormalA=255,225,170
+                        CaptionSme=0,0,0,0
+                        Font=Font.2SmallBold
+                        ImageDown=GI,Bm.FHDNT.ButtonDown40
+                        ImageNormal=GI,Bm.FHDNT.Button40
+                        ImageNormalA=GI,Bm.FHDNT.ButtonActive40
+                        Kind=Normal
+                        KindHit=Rect
+                        Name=FHDNT_Choose14
+                        OnPressCode ~{
+                            0000=dword h=ShipItems(Player(),0);
+                            0001=if(CT('FHDNT.Build')!='TEST' || CT('FHDNT.LevelSelection')!=1) { exit; }
+                            0002=ExecuteCodeFromString(GenerateCodeStringFromBlock('FHDNT.Code.TestLevel'),'h',h,'target',14);
+                        }
+                        Pos=0,44,-2
+                        Size=40,20
+                        Style=Style.GB.SoundNormal
+                    }
+                    GraphButton ^{
+                        Caption=15
+                        CaptionColorDown=220,235,245
+                        CaptionColorNormal=220,235,245
+                        CaptionColorNormalA=255,225,170
+                        CaptionSme=0,0,0,0
+                        Font=Font.2SmallBold
+                        ImageDown=GI,Bm.FHDNT.ButtonDown40
+                        ImageNormal=GI,Bm.FHDNT.Button40
+                        ImageNormalA=GI,Bm.FHDNT.ButtonActive40
+                        Kind=Normal
+                        KindHit=Rect
+                        Name=FHDNT_Choose15
+                        OnPressCode ~{
+                            0000=dword h=ShipItems(Player(),0);
+                            0001=if(CT('FHDNT.Build')!='TEST' || CT('FHDNT.LevelSelection')!=1) { exit; }
+                            0002=ExecuteCodeFromString(GenerateCodeStringFromBlock('FHDNT.Code.TestLevel'),'h',h,'target',15);
+                        }
+                        Pos=42,44,-2
+                        Size=40,20
+                        Style=Style.GB.SoundNormal
+                    }
+                    GraphButton ^{
+                        Caption=16
+                        CaptionColorDown=220,235,245
+                        CaptionColorNormal=220,235,245
+                        CaptionColorNormalA=255,225,170
+                        CaptionSme=0,0,0,0
+                        Font=Font.2SmallBold
+                        ImageDown=GI,Bm.FHDNT.ButtonDown40
+                        ImageNormal=GI,Bm.FHDNT.Button40
+                        ImageNormalA=GI,Bm.FHDNT.ButtonActive40
+                        Kind=Normal
+                        KindHit=Rect
+                        Name=FHDNT_Choose16
+                        OnPressCode ~{
+                            0000=dword h=ShipItems(Player(),0);
+                            0001=if(CT('FHDNT.Build')!='TEST' || CT('FHDNT.LevelSelection')!=1) { exit; }
+                            0002=ExecuteCodeFromString(GenerateCodeStringFromBlock('FHDNT.Code.TestLevel'),'h',h,'target',16);
+                        }
+                        Pos=84,44,-2
+                        Size=40,20
+                        Style=Style.GB.SoundNormal
+                    }
+                    GraphButton ^{
+                        Caption=17
+                        CaptionColorDown=220,235,245
+                        CaptionColorNormal=220,235,245
+                        CaptionColorNormalA=255,225,170
+                        CaptionSme=0,0,0,0
+                        Font=Font.2SmallBold
+                        ImageDown=GI,Bm.FHDNT.ButtonDown40
+                        ImageNormal=GI,Bm.FHDNT.Button40
+                        ImageNormalA=GI,Bm.FHDNT.ButtonActive40
+                        Kind=Normal
+                        KindHit=Rect
+                        Name=FHDNT_Choose17
+                        OnPressCode ~{
+                            0000=dword h=ShipItems(Player(),0);
+                            0001=if(CT('FHDNT.Build')!='TEST' || CT('FHDNT.LevelSelection')!=1) { exit; }
+                            0002=ExecuteCodeFromString(GenerateCodeStringFromBlock('FHDNT.Code.TestLevel'),'h',h,'target',17);
+                        }
+                        Pos=126,44,-2
+                        Size=40,20
+                        Style=Style.GB.SoundNormal
+                    }
+                    GraphButton ^{
+                        Caption=18
+                        CaptionColorDown=220,235,245
+                        CaptionColorNormal=220,235,245
+                        CaptionColorNormalA=255,225,170
+                        CaptionSme=0,0,0,0
+                        Font=Font.2SmallBold
+                        ImageDown=GI,Bm.FHDNT.ButtonDown40
+                        ImageNormal=GI,Bm.FHDNT.Button40
+                        ImageNormalA=GI,Bm.FHDNT.ButtonActive40
+                        Kind=Normal
+                        KindHit=Rect
+                        Name=FHDNT_Choose18
+                        OnPressCode ~{
+                            0000=dword h=ShipItems(Player(),0);
+                            0001=if(CT('FHDNT.Build')!='TEST' || CT('FHDNT.LevelSelection')!=1) { exit; }
+                            0002=ExecuteCodeFromString(GenerateCodeStringFromBlock('FHDNT.Code.TestLevel'),'h',h,'target',18);
+                        }
+                        Pos=168,44,-2
+                        Size=40,20
+                        Style=Style.GB.SoundNormal
+                    }
+                    GraphButton ^{
+                        Caption=19
+                        CaptionColorDown=220,235,245
+                        CaptionColorNormal=220,235,245
+                        CaptionColorNormalA=255,225,170
+                        CaptionSme=0,0,0,0
+                        Font=Font.2SmallBold
+                        ImageDown=GI,Bm.FHDNT.ButtonDown40
+                        ImageNormal=GI,Bm.FHDNT.Button40
+                        ImageNormalA=GI,Bm.FHDNT.ButtonActive40
+                        Kind=Normal
+                        KindHit=Rect
+                        Name=FHDNT_Choose19
+                        OnPressCode ~{
+                            0000=dword h=ShipItems(Player(),0);
+                            0001=if(CT('FHDNT.Build')!='TEST' || CT('FHDNT.LevelSelection')!=1) { exit; }
+                            0002=ExecuteCodeFromString(GenerateCodeStringFromBlock('FHDNT.Code.TestLevel'),'h',h,'target',19);
+                        }
+                        Pos=210,44,-2
+                        Size=40,20
+                        Style=Style.GB.SoundNormal
+                    }
+                    GraphButton ^{
+                        Caption=20
+                        CaptionColorDown=220,235,245
+                        CaptionColorNormal=220,235,245
+                        CaptionColorNormalA=255,225,170
+                        CaptionSme=0,0,0,0
+                        Font=Font.2SmallBold
+                        ImageDown=GI,Bm.FHDNT.ButtonDown40
+                        ImageNormal=GI,Bm.FHDNT.Button40
+                        ImageNormalA=GI,Bm.FHDNT.ButtonActive40
+                        Kind=Normal
+                        KindHit=Rect
+                        Name=FHDNT_Choose20
+                        OnPressCode ~{
+                            0000=dword h=ShipItems(Player(),0);
+                            0001=if(CT('FHDNT.Build')!='TEST' || CT('FHDNT.LevelSelection')!=1) { exit; }
+                            0002=ExecuteCodeFromString(GenerateCodeStringFromBlock('FHDNT.Code.TestLevel'),'h',h,'target',20);
+                        }
+                        Pos=252,44,-2
+                        Size=40,20
+                        Style=Style.GB.SoundNormal
+                    }
+                    GraphButton ^{
+                        Active=False
+                        Caption=Создать корпус на склад
+                        CaptionColorDown=220,235,245
+                        CaptionColorNormal=220,235,245
+                        CaptionColorNormalA=255,225,170
+                        CaptionSme=0,0,0,0
+                        Font=Font.2SmallBold
+                        ImageDown=GI,Bm.FHDNT.ButtonDown210
+                        ImageNormal=GI,Bm.FHDNT.Button210
+                        ImageNormalA=GI,Bm.FHDNT.ButtonActive210
+                        Kind=Normal
+                        KindHit=Rect
+                        Name=FHDNT_NewTestHull
+                        OnPressCode ~{
+                            0000=if(CT('FHDNT.Build')!='TEST') { exit; }
+                            0001=ExecuteCodeFromString(GenerateCodeStringFromBlock('FHDNT.Code.AddWarehouse17'));
+                        }
+                        Pos=42,88,-2
+                        Size=210,20
+                        Style=Style.GB.SoundNormal
+                    }
+                    Image ^{
+                        Image=GI,Bm.FHDNT.LevelBackReapply
+                        Pos=0,0,0
+                        Size=294,116
+                    }
+                    MouseBlocking=True
+                    Name=FHDNT_LevelPicker03
+                    Pos=302,529,-10
+                    PosAutoCorrection=True
+                    PosAutoCorrectionXCoef=0.5
+                    PosAutoCorrectionYCoef=0.5
+                    Size=294,116
+                }
+                Panel ^{
+                    Active=False
+                    MouseBlocking=False
+                    MouseBlockingTest=False
+                    Name=FHDNT_ProgressHit13
+                    Pos=302,655,8
+                    PosAutoCorrection=True
+                    PosAutoCorrectionXCoef=0.5
+                    PosAutoCorrectionYCoef=0.5
+                    Size=210,74
+                }
+                Panel ^{
+                    Active=True
+                    MouseBlocking=False
+                    MouseBlockingTest=False
+                    Name=FHDNT_ConfigHit17
+                    Pos=426,37,8
+                    PosAutoCorrection=True
+                    PosAutoCorrectionXCoef=0.5
+                    PosAutoCorrectionYCoef=0.5
+                    Size=70,26
+                }
+                Panel ^{
+                    Active=True
+                    MouseBlocking=False
+                    MouseBlockingTest=False
+                    Name=FHDNT_StorageHit17
+                    Pos=331,727,8
+                    PosAutoCorrection=True
+                    PosAutoCorrectionXCoef=0.5
+                    PosAutoCorrectionYCoef=0.5
+                    Size=152,20
+                }
+            }
+            Panel ^{
+                Active=False
+                GraphButton ^{
+                    Caption=Выбор талантов
+                    CaptionColorDown=220,235,245
+                    CaptionColorNormal=220,235,245
+                    CaptionColorNormalA=255,225,170
+                    CaptionSme=0,0,0,0
+                    Font=Font.2SmallBold
+                    ImageDown=GI,Bm.FHDNT.ButtonDown
+                    ImageNormal=GI,Bm.FHDNT.Button
+                    ImageNormalA=GI,Bm.FHDNT.ButtonActive
+                    Kind=Normal
+                    KindHit=Rect
+                    Name=FHDNT_OpenSkills
+                    OnPressCode ~{
+                        0000=InterfaceState('Ship','FHDNT_LevelPicker03',0);InterfaceState('Ship','FHDNT_SkillPicker',1); ExecuteCodeFromString(GenerateCodeStringFromBlock('FHDNT.Code.ModalInput'));
+                    }
+                    Pos=29,26,-2
+                    Size=152,20
+                    Style=Style.GB.SoundNormal
+                }
+                GraphButton ^{
+                    Active=False
+                    Caption=Выбор уровня 0-20
+                    CaptionColorDown=220,235,245
+                    CaptionColorNormal=220,235,245
+                    CaptionColorNormalA=255,225,170
+                    CaptionSme=0,0,0,0
+                    Font=Font.2SmallBold
+                    ImageDown=GI,Bm.FHDNT.ButtonDown
+                    ImageNormal=GI,Bm.FHDNT.Button
+                    ImageNormalA=GI,Bm.FHDNT.ButtonActive
+                    Kind=Normal
+                    KindHit=Rect
+                    Name=FHDNT_Test
+                    OnPressCode ~{
+                        0000=if(CT('FHDNT.Build')!='TEST' || CT('FHDNT.LevelSelection')!=1) { exit; }
+                        0001=InterfaceState('Ship','FHDNT_SkillPicker',0); InterfaceState('Ship','FHDNT_LevelPicker03',1); ExecuteCodeFromString(GenerateCodeStringFromBlock('FHDNT.Code.ModalInput'));
+                    }
+                    Pos=29,49,-2
+                    Size=152,20
+                    Style=Style.GB.SoundNormal
+                }
+                Image ^{
+                    Image=GI,Bm.FHDNT.BarBack
+                    Name=FHDNT_XPBack
+                    Pos=0,18,0
+                    Size=210,6
+                }
+                Image ^{
+                    Image=GI,Bm.FHDNT.BarFill
+                    Name=FHDNT_XPFill
+                    Pos=0,18,-1
+                    Size=1,6
+                }
+                Label ^{
+                    AlignX=Center
+                    Font=Font.2SmallBold
+                    Name=FHDNT_XPText
+                    Pos=0,0,-2
+                    Size=210,18
+                    TextColor=220,225,235
+                }
+                Label ^{
+                    Active=False
+                    AlignX=Center
+                    Font=Font.2Small
+                    Name=FHDNT_Pending
+                    Pos=0,0,0
+                    Size=1,1
+                    Text=
+                    TextColor=176,122,69
+                }
+                Name=FHDNT_Progress03
+                Pos=302,655,8
+                PosAutoCorrection=True
+                PosAutoCorrectionXCoef=0.5
+                PosAutoCorrectionYCoef=0.5
+                Size=210,74
+            }
+        }
+    }
+}
