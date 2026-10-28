@@ -1,0 +1,286 @@
+{
+  "archive_name": "FHD_Nanotech_v0.3-V26 + FHD_Nanogenesis_v0.9(1).zip",
+  "archive_size": 113827325,
+  "archive_sha256": "b80daeededff25f2d020acde9aaaab5485c5daba9ddd3e98572ed092aa97c2e5",
+  "runtime_files": 525,
+  "graphics": {
+    ".gi": 434,
+    ".gai": 51,
+    ".hai": 32
+  },
+  "atlas_files": [
+    {
+      "file": "atlas_01.png",
+      "width": 4096,
+      "height": 2894,
+      "bytes": 4522428
+    },
+    {
+      "file": "atlas_02.png",
+      "width": 4096,
+      "height": 1920,
+      "bytes": 5616273
+    },
+    {
+      "file": "atlas_03.png",
+      "width": 4096,
+      "height": 2560,
+      "bytes": 3456821
+    },
+    {
+      "file": "atlas_04.png",
+      "width": 4096,
+      "height": 2917,
+      "bytes": 5621469
+    },
+    {
+      "file": "atlas_05.png",
+      "width": 4096,
+      "height": 2560,
+      "bytes": 3643211
+    },
+    {
+      "file": "atlas_06.png",
+      "width": 4096,
+      "height": 2935,
+      "bytes": 6530816
+    },
+    {
+      "file": "atlas_07.png",
+      "width": 4096,
+      "height": 2560,
+      "bytes": 3009379
+    },
+    {
+      "file": "atlas_08.png",
+      "width": 4096,
+      "height": 2919,
+      "bytes": 4989799
+    },
+    {
+      "file": "atlas_09.png",
+      "width": 4096,
+      "height": 2560,
+      "bytes": 3423484
+    },
+    {
+      "file": "atlas_10.png",
+      "width": 4096,
+      "height": 2919,
+      "bytes": 5356706
+    },
+    {
+      "file": "atlas_11.png",
+      "width": 4096,
+      "height": 2560,
+      "bytes": 3347370
+    },
+    {
+      "file": "atlas_12.png",
+      "width": 4096,
+      "height": 2938,
+      "bytes": 5056183
+    },
+    {
+      "file": "atlas_13.png",
+      "width": 4096,
+      "height": 2560,
+      "bytes": 4308647
+    },
+    {
+      "file": "atlas_14.png",
+      "width": 4096,
+      "height": 2909,
+      "bytes": 6506220
+    },
+    {
+      "file": "atlas_15.png",
+      "width": 4096,
+      "height": 2560,
+      "bytes": 3944538
+    },
+    {
+      "file": "atlas_16.png",
+      "width": 4096,
+      "height": 2833,
+      "bytes": 5652613
+    },
+    {
+      "file": "atlas_17.png",
+      "width": 4096,
+      "height": 2990,
+      "bytes": 5484015
+    },
+    {
+      "file": "atlas_18.png",
+      "width": 4096,
+      "height": 2556,
+      "bytes": 2230625
+    },
+    {
+      "file": "atlas_19.png",
+      "width": 4096,
+      "height": 3015,
+      "bytes": 1802905
+    },
+    {
+      "file": "atlas_20.png",
+      "width": 4096,
+      "height": 2867,
+      "bytes": 1801425
+    },
+    {
+      "file": "atlas_21.png",
+      "width": 4096,
+      "height": 2468,
+      "bytes": 2141766
+    },
+    {
+      "file": "atlas_22.png",
+      "width": 4096,
+      "height": 2468,
+      "bytes": 2333633
+    },
+    {
+      "file": "atlas_23.png",
+      "width": 4096,
+      "height": 2468,
+      "bytes": 2345315
+    },
+    {
+      "file": "atlas_24.png",
+      "width": 4096,
+      "height": 2468,
+      "bytes": 2234200
+    },
+    {
+      "file": "atlas_25.png",
+      "width": 4096,
+      "height": 2468,
+      "bytes": 2475464
+    },
+    {
+      "file": "atlas_26.png",
+      "width": 4096,
+      "height": 2468,
+      "bytes": 2457649
+    },
+    {
+      "file": "atlas_27.png",
+      "width": 4096,
+      "height": 2468,
+      "bytes": 2335615
+    },
+    {
+      "file": "atlas_28.png",
+      "width": 4096,
+      "height": 2468,
+      "bytes": 2291968
+    },
+    {
+      "file": "atlas_29.png",
+      "width": 4096,
+      "height": 2468,
+      "bytes": 2075657
+    },
+    {
+      "file": "atlas_30.png",
+      "width": 4096,
+      "height": 2468,
+      "bytes": 2157023
+    },
+    {
+      "file": "atlas_31.png",
+      "width": 4096,
+      "height": 2468,
+      "bytes": 2193792
+    },
+    {
+      "file": "atlas_32.png",
+      "width": 4096,
+      "height": 2468,
+      "bytes": 2177481
+    },
+    {
+      "file": "atlas_33.png",
+      "width": 4096,
+      "height": 2468,
+      "bytes": 2291638
+    },
+    {
+      "file": "atlas_34.png",
+      "width": 4096,
+      "height": 2468,
+      "bytes": 2307447
+    },
+    {
+      "file": "atlas_35.png",
+      "width": 4096,
+      "height": 2468,
+      "bytes": 2369932
+    },
+    {
+      "file": "atlas_36.png",
+      "width": 4096,
+      "height": 3045,
+      "bytes": 1770523
+    },
+    {
+      "file": "atlas_37.png",
+      "width": 4096,
+      "height": 2985,
+      "bytes": 1224921
+    },
+    {
+      "file": "atlas_38.png",
+      "width": 4096,
+      "height": 2985,
+      "bytes": 1335911
+    },
+    {
+      "file": "atlas_39.png",
+      "width": 4096,
+      "height": 2985,
+      "bytes": 1336394
+    },
+    {
+      "file": "atlas_40.png",
+      "width": 4096,
+      "height": 2987,
+      "bytes": 1135896
+    },
+    {
+      "file": "atlas_41.png",
+      "width": 4096,
+      "height": 2990,
+      "bytes": 949465
+    },
+    {
+      "file": "atlas_42.png",
+      "width": 4096,
+      "height": 2990,
+      "bytes": 1032736
+    },
+    {
+      "file": "atlas_43.png",
+      "width": 4096,
+      "height": 2990,
+      "bytes": 1031457
+    },
+    {
+      "file": "atlas_44.png",
+      "width": 4096,
+      "height": 2990,
+      "bytes": 917542
+    },
+    {
+      "file": "atlas_45.png",
+      "width": 4096,
+      "height": 2601,
+      "bytes": 2178350
+    }
+  ],
+  "catalog_files": 6,
+  "excluded_runtime_files": [],
+  "live_game_executed": false
+}

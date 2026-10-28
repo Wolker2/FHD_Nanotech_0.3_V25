@@ -1,0 +1,12 @@
+Name=FHD_Nanotech
+Section=FHD_MODS
+Author=Prolog_D
+Priority=5
+Languages=Rus
+SmallDescription=Прокачиваемый корпус с 0 по 20 уровень и 20 талантов. v0.3 Alpha RELEASE v26
+FullDescription=Добавляет в игру прокачиваемый корпус (с 0 по 20 уровень) и 20 талантов. Выбор таланта происходит на 5, 10, 15 и 20 уровнях. Также благодаря самообучающимся наноботам с каждым уровнем корпус корабля эволюционирует в новые формы, а каждый выбор таланта трансформирует внешний вид интерфейса. По достижении 20 уровня наступает пик эволюции, открывая анимированный интерфейс.
+SmallDescription=------------------------------------  <color=0,200,255>ENG</color>  ----------------------------------------
+FullDescription= ------------------------------------  <color=0,200,255>ENG</color>  ----------------------------------------
+Languages=Eng
+SmallDescription=Upgradeable hull from Lv. 0 to 20 with 20 talents. v0.3 Alpha RELEASE v26
+FullDescription=Adds an upgradeable ship hull (levels 0 to 20) with 20 selectable talents. Talents are chosen at levels 5, 10, 15, and 20. Thanks to self-learning nanobots, the hull evolves into different ship frames with each level, while each talent choice alters the UI appearance. Reaching level 20 marks the peak of evolution, unlocking an animated UI.

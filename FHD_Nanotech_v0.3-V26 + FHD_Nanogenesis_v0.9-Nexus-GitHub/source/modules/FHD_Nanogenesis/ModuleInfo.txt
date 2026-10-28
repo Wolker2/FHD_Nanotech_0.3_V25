@@ -1,0 +1,13 @@
+Name=FHD_Nanogenesis
+Section=FHD_MODS
+Author=Prolog_D
+Priority=6
+Dependence=FHD_Nanotech
+Languages=Rus
+SmallDescription=Добавляет в игру 8 новых корпусов для мода FHD_Nanotech (необязательно)
+FullDescription=Добавляет 8 новых корпусов для мода FHD_Nanotech v26+. Восемь уникальных обликов открываются на 2, 5, 8, 10, 12, 15, 18 и 20 уровнях прокачки.
+SmallDescription=------------------------------------  <color=0,200,255>ENG</color>  ----------------------------------------
+FullDescription= ------------------------------------  <color=0,200,255>ENG</color>  ----------------------------------------
+Languages=Eng
+SmallDescription=Adds 8 new ship hulls for the FHD_Nanotech mod (optional)
+FullDescription=Adds 8 new hulls designed for the FHD_Nanotech v26+ mod. Features eight distinct appearances unlocked at upgrade levels 2, 5, 8, 10, 12, 15, 18, and 20.
